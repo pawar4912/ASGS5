@@ -1,0 +1,158 @@
+
+.toptext{
+    text-align: left !important;
+    
+}
+.meg{
+    object-fit: cover !important;
+}
+
+.cas{
+  width: 100%;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.carousel-control-prev{
+    display:none;
+}
+
+.howButton:hover{
+  
+  background:rgba(0, 187, 210, 1) !important;
+}
+
+
+  .text002 {
+    color: white;
+    width: 100%;
+    font-family: 'Raleway', bold;
+    font-size: 64px;
+    align-self: auto;
+    // font-style: Bold;
+    text-align: left;
+    
+    // font-weight: bold;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+
+  }
+
+  .text0021 {
+    color: rgb(10, 16, 36);
+    width: 100%;
+    font-family: 'Raleway', bold;
+    font-size: 64px;
+    align-self: auto;
+    // font-style: Bold;
+    text-align: left;
+    
+    // font-weight: bold;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+
+  }
+
+
+
+  .text {
+    color: white;
+    width: 100%;
+   
+    font-size: 24px;
+    align-self: auto;
+    // font-style: Regular;
+    text-align: right !important;
+    font-family: 'Arimo';
+    font-weight: normal;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  
+  .text21 {
+    color: black;
+    width: 100%;
+   
+    font-size: 24px;
+    align-self: auto;
+    // font-style: Regular;
+    text-align: right !important;
+    font-family: 'Arimo';
+    font-weight: normal;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .text021 {
+    // stopeed
+    // top: 600px;
+    // left: 189px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    background-color: #DC3846;
+    border-radius: 20px;
+    padding:0.6em 2em !important;
+    border:0 !important;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mulish;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+
+  
+
+  .carousel-caption{
+    
+    top:90px;
+   right:650px;
+
+  }
+
+  .howButton{
+    padding:0.4em 1em !important;
+    border:0 !important;
+    width: 250px;
+    font-size: 24px !important;
+    font-weight: bold;
+    background-color: #DC3846 !important;
+    border-radius: 24px !important;
+    font-family: 'Arimo';
+}
+
+.learnButton{
+  padding:0.2em 1em !important;
+    border:0 !important;
+    
+    font-size: 24px !important;
+    font-weight: bold;
+    // background-color: rgb(10, 16, 36) !important;
+    background-color: rgb(0, 187, 210) !important;
+    border-radius: 15px !important;
+    font-family: 'Arimo';
+}
+
+.learnMore2{
+  padding:0.2em 1em !important;
+    border:0 !important;
+    width:fit-content !important;
+    font-size: 24px !important;
+    font-weight: bold;
+    background-color:rgba(0, 187, 210, 1) !important;
+    border-radius: 15px !important;
+    font-family: 'Arimo';
+}

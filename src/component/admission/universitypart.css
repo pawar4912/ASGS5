@@ -1,0 +1,30 @@
+.univer{
+    background-color: #F0F5FF;
+}
+
+.univerpara{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    
+}
+.univerpara1{
+    margin-top: 20px;
+}
+.univerpara h1{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+color: #1C3348;
+}
+.univerpara p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #1C3348;
+}

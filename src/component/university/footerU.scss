@@ -1,0 +1,228 @@
+.footerad2{
+    position: absolute;
+width: 100%;
+
+left: 0px;
+top: 1500px;
+}
+
+
+
+.site-footer2
+{
+    
+    background: #137398;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+.site-footer2 hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer2 hr.small
+{
+  margin:20px 0
+}
+.site-footer2 h6
+{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+  color: #FFFFFF;
+
+}
+.site-footer2 a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.footer-links2
+{
+  padding-left:0;
+  list-style:none
+
+}
+.footer-links2 li
+{
+  display:block
+}
+.footer-links2 a
+{
+   
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.footer-links2.inline li
+{
+  display:inline-block
+}
+.site-footer2 .social-icons2
+{
+  text-align:right
+}
+.site-footer2 .social-icons2 a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-color: white;
+  color: white;
+  border-radius:100%;
+  background-color:#137398;
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer2 [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer2
+  {
+    padding-bottom:0
+  }
+  .site-footer2 .copyright-text,.site-footer2 .social-icons2
+  {
+    text-align:center
+  }
+}
+.social-icons2
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons2 li
+{
+  display:inline-block;
+  margin-bottom:4px;
+
+}
+.social-icons2 li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+
+.text-justify2{
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  
+  color: #E5E5E5;
+
+}
+
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px rgb(255,255,255);
+  padding: 0.5em 0.6em;
+
+}
+.social-icons2 a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons2 a:active,.social-icons2 a:focus,.social-icons2 a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons2.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons2 a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons2 a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons2 a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons2 a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons2 li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.flast12{
+  background: #137398;
+mix-blend-mode: multiply;
+opacity: 0.90;
+height: 50px;
+width: 100%;
+align-items: center;
+}
+
+.flast{
+  
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+
+color: #E5E5E5;
+}
+
+.footer-links2 a{
+  color:white !important;
+}

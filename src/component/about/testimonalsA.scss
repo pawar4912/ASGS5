@@ -1,0 +1,135 @@
+.card1test{
+
+}
+
+.imgper11{
+border-radius: 50% !important;
+}
+.testloc1{
+    position:absolute !important ;
+
+left: 40px !important;
+top: 1900px !important;
+}
+
+
+.wrapper1 {
+  width: 553px !important;
+  
+  height: 260px !important;
+  /* White Background */
+
+background: #FFFFFF !important;
+box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.16) !important;
+border-radius: 0px 20px !important;
+  display: table !important;
+
+  margin: 50px auto !important;
+  padding: 20px !important;
+  position: relative !important;
+}
+.wrapper1:after, .wrapper1:before {
+  content: "" !important;
+  position: absolute !important;
+  font-family: fontAwesome !important;
+  font-size: 50px !important;
+  color: #111 !important;
+
+}
+.wrapper1:after {
+  content: "“" !important;
+  top: 0 !important;
+  
+  font-family: 'Mulish' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 150px !important;
+line-height: 251px !important;
+color: #00BBD2 !important;
+  left: 0 !important;
+  transform: translate(-50%, -50%) !important;
+
+}
+.wrapper1:before {
+  content: "”" !important;
+  font-family: 'Mulish' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 150px !important;
+  line-height: 251px !important;
+  color: #00BBD2 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  transform: translate(50%, 50%) !important;
+
+}
+
+.nametest1{
+    font-family: 'Mulish' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 20px !important;
+line-height: 25px !important;
+
+color: #1C3348 !important;
+}
+
+.flexdis1{
+    gap: 50px !important ;
+    position: relative !important;
+    left:40px !important;
+}
+
+
+.title1, .description1 {
+  display: table-cell !important;
+  width: 50% !important;
+  vertical-align: middle !important;
+}
+
+.description1 {
+  font-size: 14px !important;
+}
+
+.title1{
+  font-size: 40px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  padding: 0 20px 0 0 !important;
+}
+.title1 small {
+  display: block !important;
+  font-size: 25px !important;
+  text-align: right !important;
+}
+
+.border-radius1 {
+  border-radius: 30px !important;
+}
+
+.text-right1 {
+  text-align: right !important;
+}
+
+.headingstyle1{
+    font-family: 'Mulish' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 36px !important;
+line-height: 45px !important;
+position: absolute !important;
+width: 453px !important;
+height: 34px !important;
+left: 30px !important;
+top:-80px !important;
+color: #1C3348 !important;
+}
+
+.vector031 {
+  top: 9.232421875px !important;
+  left: 0px !important;
+  width: 139px !important;
+  height: 26px !important;
+  position: absolute !important;
+}
