@@ -1,10 +1,8 @@
 
 import './about.scss'
-import Background from '../asset/ASGS final logo-01 2.png';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
-import React, { useState, useEffect } from "react";
+import React from "react";
 import pic from '../asset/inter_bachler.png'
-import pic2 from '../asset/ASGS-GLOBAL.png'
 import pic3 from '../asset/Online-programs.png'
 import pic4 from '../asset/WHITE-2.png'
 import pic1 from '../asset/Icon-01.png'
@@ -14,70 +12,6 @@ import pic6 from '../asset/logo/Glo_cer_blue.png'
 
 function About() {
 
-  function changecolor() {
-    document.getElementById('firstdiv1').style.backgroundColor = '#558FB1'
-    document.getElementById('firstdiv1').style.color = 'white'
-    var im1= document.getElementById("abt1img");
-    im1.src =pic1;
-}
-
-
-function originalcolor(){
-  
-  document.getElementById('firstdiv1').style.backgroundColor = '#558FB1'
-  document.getElementById('firstdiv1').style.color = 'white'
-  
-  var im1= document.getElementById("abt1img");
-  im1.src =pic1;
-}
-
-
-function changecolor1() {
-  document.getElementById('firstdiv1').style.backgroundColor = 'white'
-  document.getElementById('firstdiv1').style.color = 'black';
-  var im2= document.getElementById("abt2img");
-  im2.src =pic4;
-
-  var im1= document.getElementById("abt1img");
-  im1.src =pic;
-}
-
-
-function originalcolor1(){
-document.getElementById('firstdiv1').style.backgroundColor = '#558FB1'
-document.getElementById('firstdiv1').style.color = 'white'
-  var im3= document.getElementById("abt2img");
-  im3.src =pic3;
-
-  var im1= document.getElementById("abt1img");
-  im1.src =pic1;
-}
-
-
-function changecolor2() {
-  document.getElementById('firstdiv1').style.backgroundColor = 'white'
-  document.getElementById('firstdiv1').style.color = 'black';
-
-  var im2= document.getElementById("abt3img");
-  im2.src =pic5;
-
-  var im1= document.getElementById("abt1img");
-  im1.src =pic;
-
-}
-
-
-function originalcolor2(){
-  document.getElementById('firstdiv1').style.backgroundColor = '#558FB1'
-  document.getElementById('firstdiv1').style.color = 'white'
-
-  var im3= document.getElementById("abt3img");
-  im3.src =pic6;
-
-  var im1= document.getElementById("abt1img");
-  im1.src =pic1;
-}
-
     return (
 
         <div>
@@ -85,13 +19,11 @@ function originalcolor2(){
           <div className="container mt-5">
             <h3 className="p-3 oursa">Our Study Modes</h3>
             <div className="row postz1">
-              <div className="col  cardaw2 cardaws1  bords1" id="firstdiv1" onMouseEnter={changecolor}  onMouseLeave={originalcolor}>  
+              <div className="col  cardaw1 bords1" id="firstdiv1">  
                 <div className="w3-card-4">
                   <div className="w3-container  bords1">
-                    <div className="text-center mt-4"> 
-                    {/* <i className="fa fa-graduation-cap cap" aria-hidden="true" ></i> */}
-                    {/* <img className='wid' id="abt1img" src={pic} alt="Avatar" /> */}
-                    <img id="abt1img" src={pic1} alt="Avatar" height={60} />
+                    <div className="text-center mt-4">
+                    <img id="abt1img" src={require('../asset/inter_bachler.png')} alt="Avatar" height={60} />
                     </div>
                     <br></br>
                     <p className="text-center intera">International Bachelors</p>
@@ -100,7 +32,7 @@ function originalcolor2(){
                   </div>
                 </div>
               </div>
-              <div className="col  cardaw1" id="im2" onMouseEnter={changecolor1}  onMouseLeave={originalcolor1}>
+              <div className="col  cardaw2" id="im2">
                 <div className="w3-container">
                   <div className="text-center mt-4"> 
                     {/* <img  src={pic3}  alt="Avatar" /> */}
@@ -111,7 +43,7 @@ function originalcolor2(){
                   worlds top 3% institutions</p>
                 </div>
               </div>
-              <div className="col  cardaw1 borda1" id="im3" onMouseEnter={changecolor2}  onMouseLeave={originalcolor2} >
+              <div className="col  cardaw3 " id="im3" >
                 <div className="w3-container">
                   <div className="text-center mt-4"> 
                     <img id="abt3img" src={pic6} alt="Avatar" height={60} />
