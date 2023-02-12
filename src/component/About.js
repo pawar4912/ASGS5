@@ -37,7 +37,7 @@ function About() {
                   worlds top 3% institutions</p>
                 </div>
               </div>
-              <div className="col  cardaw3 " id="im3" >
+              <div className="col  cardaw3 bords2" id="im3" >
                 <div className="w3-container">
                   <div className="text-center mt-4"> 
                     <img id="abt3img" src={pic6} alt="Avatar" height={60} />
