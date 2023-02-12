@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./Carousel.scss";
 import  { handleClickScroll } from '../../common/utils/scrolls'
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "react-bootstrap";
 
 function Carousels() {

@@ -1,9 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-// import Dropdown from 'react-bootstrap/Dropdown';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import Button from "react-bootstrap/Button";
 import "./header.scss";
@@ -57,53 +54,35 @@ function Header() {
         </Container>
       </Navbar>
       <div className="d-flex justify-content-evenly navsec">
-        <span className="hovred">
-          <NavLink className="text-white" to="/">
-            Home
-          </NavLink>
-        </span>
-        {/*.................. new code start */}
-        <div>
-          <Dropdown title="Our Programs">
-            <Dropdown.Menu title="International Bachelors">
-              <Dropdown.Item>
-                <NavLink className="fond" to="/itprograms">
-                  Information Technology
-                </NavLink>
-              </Dropdown.Item>
-              <Dropdown.Item>
-                <NavLink to="/bussiness"> Business </NavLink>
-              </Dropdown.Item>
-            </Dropdown.Menu>
-            <Dropdown.Item> International Masters </Dropdown.Item>
-            <Dropdown.Item> International Short Courses </Dropdown.Item>
-          </Dropdown>
-        </div>
-
-        {/* 2nd code */}
-        <span className="hovred">
-          <NavLink className="text-white" to="/uni">
+        <NavLink className="text-white" to="/">
+          Home
+        </NavLink>
+        <Dropdown title="Our Programs">
+          <Dropdown.Menu title="International Bachelors">
+            <Dropdown.Item>
+              <NavLink className="fond" to="/itprograms">
+                Information Technology
+              </NavLink>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <NavLink to="/bussiness"> Business </NavLink>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+          <Dropdown.Item> International Masters </Dropdown.Item>
+          <Dropdown.Item> International Short Courses </Dropdown.Item>
+        </Dropdown>
+        <NavLink className="text-white" to="/uni">
           Academics Partners
-          </NavLink>
-        </span>
-        <span className="hovred">
-          <NavLink className="text-white" to="/KnowMore">
-            About ASGS
-          </NavLink>
-        </span>
-        <span className="hovred">
-          <NavLink className="text-white" to="/News">
-            News & Events
-          </NavLink>
-        </span>
-        <span className="hovred">
-          <NavLink className="text-white" to="/apply">
-            Contact Us
-          </NavLink>
-        </span>
-        {/* <p className='hovred'>Campus Life </p>
-    <p className='hovred'>News & Events </p>
-    <p className='hovred'>Contact Us </p> */}
+        </NavLink>
+        <NavLink className="text-white" to="/KnowMore">
+          About ASGS
+        </NavLink>
+        <NavLink className="text-white" to="/News">
+          News & Events
+        </NavLink>
+        <NavLink className="text-white" to="/apply">
+          Contact Us
+        </NavLink>
       </div>
     </div>
   );

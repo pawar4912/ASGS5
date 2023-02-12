@@ -11,7 +11,7 @@ function About() {
         <div>
           {/* About Section */}
           <div className="container mt-5">
-            <h3 className="p-3 oursa">Our Study Modes</h3>
+            <h3 className="section-heading">Our Study Modes</h3>
             <div className="row postz1">
               <div className="col  cardaw1 bords1" id="firstdiv1">  
                 <div className="w3-card-4">

@@ -6,8 +6,7 @@ import Header from './Header'
   return (
     <div>
       <Header/>
-      <h2 className='text-center'>Scholarships</h2>
-      <h3 className='p-5 mt-5'></h3>
+      <h3 className="heading-text heading-gap">Scholarships</h3>
       <Footer/>
     </div>
   )
