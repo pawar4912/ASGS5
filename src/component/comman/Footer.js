@@ -1,9 +1,11 @@
 import "../comman/footer.scss";
 import { NavLink } from "react-router-dom";
+import ScrollButton from "../../common/components/ScrollButton";
 
 function Footer() {
   return (
     <div className="footerad mt-3">
+      <ScrollButton />
       <footer className="site-footer">
         <div className="container">
           <div className="row">

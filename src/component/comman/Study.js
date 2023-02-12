@@ -1,18 +1,14 @@
-import React from 'react'
-import Footer from './Footer'
-import Header from './Header'
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 
- function Study() {
+function Study() {
   return (
     <div>
-        <Header/>
-
-        <h2 className='text-center'>Study Center</h2>
-      <h3 className='p-5 mt-5'></h3>
-
-        <Footer/>
-      
+      <Header />
+      <h3 className="heading-text heading-gap">Study Center</h3>
+      <Footer />
     </div>
-  )
+  );
 }
-export default Study
+export default Study;

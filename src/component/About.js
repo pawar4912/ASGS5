@@ -2,12 +2,6 @@
 import './about.scss'
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import React from "react";
-import pic from '../asset/inter_bachler.png'
-import pic3 from '../asset/Online-programs.png'
-import pic4 from '../asset/WHITE-2.png'
-import pic1 from '../asset/Icon-01.png'
-
-import pic5 from '../asset/WHITE-3.png'
 import pic6 from '../asset/logo/Glo_cer_blue.png'
 
 function About() {
@@ -17,7 +11,7 @@ function About() {
         <div>
           {/* About Section */}
           <div className="container mt-5">
-            <h3 className="p-3 oursa">Our Study Modes</h3>
+            <h3 className="section-heading">Our Study Modes</h3>
             <div className="row postz1">
               <div className="col  cardaw1 bords1" id="firstdiv1">  
                 <div className="w3-card-4">
@@ -38,17 +32,17 @@ function About() {
                     {/* <img  src={pic3}  alt="Avatar" /> */}
                     <img id="abt2img" src={require('../asset/logo/oni_program_blue.png')} height={60} alt="Avatar" />
                   </div>
-                  <p className="text-center mt-4 intera">Online Programs</p>
+                  <p className="text-center mt-4 intera">International Masters</p>
                   <p className="text-center underd">Masters Program With <br />
                   worlds top 3% institutions</p>
                 </div>
               </div>
-              <div className="col  cardaw3 " id="im3" >
+              <div className="col  cardaw3 bords2" id="im3" >
                 <div className="w3-container">
                   <div className="text-center mt-4"> 
                     <img id="abt3img" src={pic6} alt="Avatar" height={60} />
                   </div>
-                  <p className="text-center mt-2 intera">Global Certifications</p>
+                  <p className="text-center mt-2 intera">International Short Courses</p>
                   <p className="text-center underd">Mini Courses and specialised <br />
                     programs from world's <br />
                     leading institutions</p>

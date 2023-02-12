@@ -102,7 +102,6 @@
 .cardaw3
 {
     background-color: white;
-    box-shadow: 1px 1px 1px 1px #888888;
 }
 .cardaw3:hover
 {
@@ -138,6 +137,8 @@
 {
     position: relative;
     top: 40px;
+    box-shadow: 1px 1px 15px 0px #888888;
+    border-radius: 10px;
 }
 
 .matd1
@@ -155,7 +156,7 @@
 }
 
 
-.borda1
+.bords2
 {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;

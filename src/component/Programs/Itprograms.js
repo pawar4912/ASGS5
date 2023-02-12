@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-grid';
 import Box from '@mui/material/Box';
 import Header from '../comman/Header';
 import Footer from '../comman/Footer';
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 
 
@@ -15,12 +15,9 @@ function Itprograms() {
     return (
 
         <div>
-            <Header></Header>
-            <br></br>
+            <Header/>
             <Container>
-                <div className='text-center'>
-                    <h2> <b>Information Technology </b></h2>
-                </div>
+                <h3 className='heading-text heading-gap'>Information Technology</h3>
                 <Row>
                     <Col>
                    
