@@ -121,10 +121,11 @@ function Footer() {
           <div className="row">
             <div className="col-md-5 col-sm-6 col-xs-12 ">
               <img
-                src={require("../../asset/Mask group1.png")}
+                src={require("../../asset/logo/ASGS-white-logo.png")}
                 height={60}
-                width={125}
-              ></img>
+                width={175}
+                alt="site-logo"
+              />
             </div>
             <div className="col-md-2 col-sm-6 col-xs-12">
               <ul className="social-icons">
