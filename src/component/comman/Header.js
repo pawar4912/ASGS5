@@ -68,8 +68,12 @@ function Header() {
               <NavLink to="/bussiness"> Business </NavLink>
             </Dropdown.Item>
           </Dropdown.Menu>
-          <Dropdown.Item> International Masters </Dropdown.Item>
-          <Dropdown.Item> International Short Courses </Dropdown.Item>
+          <Dropdown.Item> 
+            <NavLink to="/international-masters">International Masters </NavLink>
+          </Dropdown.Item>
+          <Dropdown.Item>
+          <NavLink to="/international-short-courses">International Short Courses </NavLink>
+          </Dropdown.Item>
         </Dropdown>
         <NavLink className="text-white" to="/uni">
           Academics Partners
