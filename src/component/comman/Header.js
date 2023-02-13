@@ -8,8 +8,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Dropdown from "rsuite/Dropdown";
 import "rsuite/dist/rsuite.min.css";
+import SearchBar from "../../common/components/SearchBar";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar
@@ -21,34 +24,30 @@ function Header() {
       >
         <Container>
           <Navbar.Brand href="#home" className="imgra">
-            <img src={require("../../asset/ASGS-02.jpg")} height={69} />
+            <img
+              src={require("../../asset/ASGS-02.jpg")}
+              height={69}
+              alt="logo"
+            />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <SearchBar />
           <Navbar.Collapse id="responsive-navbar-nav ">
             <Nav className="submenu">
-              <Nav.Link className="suces">
-                <NavLink className="sudes" to="/Sucess">
-                  Success Stories
-                </NavLink>
-              </Nav.Link>
-              <Nav.Link className="suces" eventKey={2} href="#memes">
-                <NavLink className="sudes" to="/Schol">
-                  Scholarships
-                </NavLink>
-              </Nav.Link>
-
-              <Nav.Link className="suces">
-                <NavLink className="sudes" to="/Study">
-                  Study Center
-                </NavLink>
-              </Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                <Button className="buttonBg btn-rounded btnapply suces">
-                  <NavLink className="text-white" to="/apply">
-                    Apply Now
-                  </NavLink>
-                </Button>
-              </Nav.Link>
+              <NavLink className="sudes" to="/Sucess">
+                Success Stories
+              </NavLink>
+              <NavLink className="sudes" to="/Schol">
+                Scholarships
+              </NavLink>
+              <NavLink className="sudes" to="/Study">
+                Study Center
+              </NavLink>
+              <Button
+                className="buttonBg btn-rounded btnapply"
+                onClick={() => navigate("apply")}
+              >
+                Apply Now
+              </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -68,11 +67,15 @@ function Header() {
               <NavLink to="/bussiness"> Business </NavLink>
             </Dropdown.Item>
           </Dropdown.Menu>
-          <Dropdown.Item> 
-            <NavLink to="/international-masters">International Masters </NavLink>
+          <Dropdown.Item>
+            <NavLink to="/international-masters">
+              International Masters{" "}
+            </NavLink>
           </Dropdown.Item>
           <Dropdown.Item>
-          <NavLink to="/international-short-courses">International Short Courses </NavLink>
+            <NavLink to="/international-short-courses">
+              International Short Courses{" "}
+            </NavLink>
           </Dropdown.Item>
         </Dropdown>
         <NavLink className="text-white" to="/uni">
