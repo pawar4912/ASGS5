@@ -17,6 +17,7 @@ function Team() {
                   width={245}
                   height={279}
                   className="imgSlider1 "
+                  alt="team-member-img"
                 ></img>
 
                 <div className="infop1">
@@ -35,6 +36,7 @@ function Team() {
                   width={245}
                   height={279}
                   className="imgSlider1 "
+                  alt="team-member-img"
                 ></img>
                 <div className="infop1">
                   <span className="mainname1">Rajesh Singh</span>
@@ -50,6 +52,7 @@ function Team() {
                   width={245}
                   height={279}
                   className="imgSlider1 "
+                  alt="team-member-img"
                 ></img>
                 <div className="infop1">
                   <span className="mainname1">Dr. Lawrence Pratchett</span>
@@ -59,8 +62,7 @@ function Team() {
               </div>
             </div>
           </div>
-          <br></br>
-          <div className="abtteam  mt-5 mb-2 mdas ">
+          <div className="abtteam">
             <div className="image-item1">
               <div className="img_shad p-3">
                 <img
@@ -68,6 +70,7 @@ function Team() {
                   width={245}
                   height={279}
                   className="imgSlider1 "
+                  alt="team-member-img"
                 ></img>
                 <div className="infop1">
                   <span className="mainname1">Dr. Scott Dickson</span>
@@ -79,6 +82,23 @@ function Team() {
               </div>
             </div>
 
+            <div className="image-item1">
+              <div className="img_shad p-3">
+                <img
+                  src={require("../../asset/Prof Bhawna Kumar.jpg")}
+                  width={245}
+                  height={279}
+                  className="imgSlider1 "
+                  alt="team-member-img"
+                ></img>
+                <div className="infop1">
+                  <span className="mainname1">Prof. Bhawna Kumar</span>
+                  <br></br>
+                  <span className="submainname1">Academic Director</span>
+                </div>
+              </div>
+            </div>
+
             <div className="image-item1 ">
               <div className="img_shad p-3">
                 <img
@@ -86,6 +106,7 @@ function Team() {
                   width={230}
                   height={279}
                   className="imgSlider1 imgd"
+                  alt="team-member-img"
                 ></img>
                 <div className="infop1">
                   <span className="mainname1">Prof. Manoj Kumar</span>

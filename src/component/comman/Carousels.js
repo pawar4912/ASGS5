@@ -2,9 +2,11 @@ import Carousel from "react-bootstrap/Carousel";
 import "./Carousel.scss";
 import  { handleClickScroll } from '../../common/utils/scrolls'
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 import { Button } from "react-bootstrap";
 
 function Carousels() {
+  const navigate = useNavigate()
   const handleMove = () => {
     window.scrollTo({ top: 2400, behavior: "smooth" }); // here it goes
   };
@@ -32,7 +34,7 @@ function Carousels() {
             <br></br>
             <br></br>
 
-            <Button className="learnButton" onClick={handleMove}>
+            <Button className="learnButton" onClick={() => navigate('international-bachelors')}>
               Learn More
             </Button>
           </div>
@@ -48,8 +50,7 @@ function Carousels() {
         <Carousel.Caption>
           <div className="toptext">
             <h3 className="text0021">
-              Get Your <br></br>
-              Degree Online
+            Get Your Masters Degree Online
             </h3>
             <br></br>
             <span className="text21">
@@ -59,7 +60,7 @@ function Carousels() {
             <br></br>
             <br></br>
 
-            <div className="learnMore2">Learn More</div>
+            <div className="learnMore2" onClick={() => navigate('international-masters')}>Learn More</div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

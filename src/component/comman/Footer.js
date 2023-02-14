@@ -123,7 +123,7 @@ function Footer() {
               <img
                 src={require("../../asset/logo/ASGS-white-logo.png")}
                 height={60}
-                width={175}
+                width={243}
                 alt="site-logo"
               />
             </div>

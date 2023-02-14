@@ -1,11 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './component/comman/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter,HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from './component/Home';
-// import OurPrograms from './OurPrograms';
 import University from './component/university/University';
 import Apply from './component/admission/Apply';
 import AssuredUni from './component/university/AssuredUni';
@@ -25,6 +22,10 @@ import MoreInfo from './component/comman/MoreInfo';
 import Policy from './component/comman/Policy';
 import Terms from './component/comman/Terms';
 import Contact from './component/comman/Contact';
+import InternationalBachelors from './component/InternationalBachelors';
+import InternationalMasters from './component/InternationalMasters';
+import InternationalShortCourses from './component/InternationalShortCourses';
+
 function App() {
   return (
     
@@ -53,10 +54,9 @@ function App() {
         <Route path="/Policy" element={<Policy/>}/>
         <Route path="/Terms" element={<Terms/>}/>
         <Route path="/Contact" element={<Contact/>}/>
-   
-
-
-        
+        <Route path="/international-bachelors" element={<InternationalBachelors/>}/>
+        <Route path="/international-masters" element={<InternationalMasters/>}/>
+        <Route path="/international-short-courses" element={<InternationalShortCourses/>}/>
       </Routes>
     </HashRouter>
 
