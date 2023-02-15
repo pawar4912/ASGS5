@@ -1,13 +1,11 @@
 import React from 'react';
-import './Apply.css';
-
-
 import { Container, Row, Col } from 'react-grid-system';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import Header from '../comman/Header';
+import Footer from '../comman/Footer';
 
 
 const Apply = () => {
@@ -84,31 +82,16 @@ const Apply = () => {
 					type=""
 					/>
 				</div>
-                {/* <div>
-                  <TextField
-                    id="outlined-password-input"
-                    label="Password"
-                    type="password"
-                    autoComplete="current-password"
-                  />
-                </div> */}
+           
                 <div>
                   <TextField
                     required
                     id="outlined-required"
                     label="Enter Your Degree"
-                    
-                  // defaultValue="Subject"
+                
                   />
                 </div>
-                {/* <div>
-                  <TextField
-                    id="outlined-textarea"
-                    label="Message"
-                    placeholder="Message"
-                    multiline
-                  />
-                </div> */}
+           
                 <div className='buttonform'>
                  <Button variant="primary" style={{ color: "white", background: "#00BBD2", 
 				 height: "41px", width: "203.37px",
@@ -126,6 +109,9 @@ const Apply = () => {
 					</Col>
 				</Row>
 			</Container>
+
+
+			<Footer/>
 		</>
 	);
 };

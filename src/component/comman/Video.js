@@ -1,6 +1,4 @@
 import React from "react";
-import "./Video.scss";
-
 function Video() {
   return (
     <div className="videoadj row" id="#videohs">

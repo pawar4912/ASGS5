@@ -1,5 +1,3 @@
-
-import './letsmeet.scss';
 import { Container, Row, Col } from 'react-grid-system';
 import Card from 'react-bootstrap/Card';
 

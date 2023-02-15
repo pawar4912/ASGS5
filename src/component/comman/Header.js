@@ -1,9 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
 import Button from "react-bootstrap/Button";
-import "./header.scss";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Dropdown from "rsuite/Dropdown";
@@ -23,12 +21,15 @@ function Header() {
         className="navbar-nav"
       >
         <Container>
-          <Navbar.Brand href="#home" className="imgra">
-            <img
+          <Navbar.Brand className="imgra">
+            <NavLink to='/'>           
+             <img
               src={require("../../asset/ASGS-02.jpg")}
               height={69}
               alt="logo"
             />
+            </NavLink>
+
           </Navbar.Brand>
           <SearchBar />
           <Navbar.Collapse id="responsive-navbar-nav ">

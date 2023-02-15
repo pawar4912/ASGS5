@@ -2,8 +2,6 @@ import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
 
-import '../../component/comman/Partner.css'
-
  function Partner() {
   return (
     <div>
@@ -21,7 +19,7 @@ import '../../component/comman/Partner.css'
           <div className="col-lg-3 unv1 pb-5 px-3 " >
             <p className="text-center p-3">Filter</p>
             <hr />
-            {/* <span>Select Country</span> */}
+         
             <div className>Select Country</div>
             <select className="form-control vodiapicker">
               <option  value="en" className="test" data-thumbnail="https://cdn.shopify.com/s/files/1/0491/2689/9880/files/aste.png?v=1611693503" selected>   United States</option>

@@ -1,6 +1,3 @@
-
-import './placed.scss';
-
 import { Container, Row, Col } from 'react-grid-system';
 
 function Placed() {

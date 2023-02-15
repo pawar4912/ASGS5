@@ -1,4 +1,3 @@
-import "../comman/footer.scss";
 import { NavLink } from "react-router-dom";
 import ScrollButton from "../../common/components/ScrollButton";
 

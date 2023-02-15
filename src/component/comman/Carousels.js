@@ -1,5 +1,4 @@
 import Carousel from "react-bootstrap/Carousel";
-import "./Carousel.scss";
 import  { handleClickScroll } from '../../common/utils/scrolls'
 import React from "react";
 import { useNavigate } from 'react-router-dom'
@@ -23,7 +22,10 @@ function Carousels() {
         <Carousel.Caption>
           <div className="toptext">
             <h3 className="text0021">
-              Start At Home <br></br>
+              Start At Home 
+          
+            </h3>
+            <h3 className="text0021">
               Finish On Campus
             </h3>
             <br></br>
@@ -50,13 +52,17 @@ function Carousels() {
         <Carousel.Caption>
           <div className="toptext">
             <h3 className="text0021">
-            Get Your Masters Degree Online
+            Get Your Masters
+            </h3>
+            <h3 className="text0021">
+            Degree Online
             </h3>
             <br></br>
             <span className="text21">
               EOL is the online learning division <br></br>
               of Education Center of Australia
             </span>
+            
             <br></br>
             <br></br>
 

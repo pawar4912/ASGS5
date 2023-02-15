@@ -2,9 +2,6 @@ import React from 'react';
 import Footer from '../comman/Footer';
 import Header from '../comman/Header'
 import img2 from '../../asset/apply.png'
-import './progression.scss';
-
-
 
 function Progression() {
 

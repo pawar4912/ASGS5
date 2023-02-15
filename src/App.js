@@ -1,4 +1,4 @@
-import './App.css';
+import '../src/asset/Scss/Style.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter, Routes, Route } from "react-router-dom";
 
