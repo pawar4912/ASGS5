@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import "./KnowMore.scss";
+import '../../asset/Scss/Style.scss'
 
 function KnowMore() {
   return (

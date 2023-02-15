@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
 
-import '../../component/comman/Partner.css'
+import '../../asset/Scss/Style.scss'
 
  function Partner() {
   return (

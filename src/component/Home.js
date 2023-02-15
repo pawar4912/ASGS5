@@ -1,4 +1,3 @@
-import "./home.scss";
 import About from "./About";
 import Carousels from "./comman/Carousels";
 import Footer from "./comman/Footer";

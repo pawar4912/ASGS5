@@ -1,4 +1,5 @@
-import './itprograms.scss'
+
+import '../../asset/Scss/Style.scss'
 import { Container, Row, Col } from 'react-grid';
 
 import Box from '@mui/material/Box';
@@ -18,8 +19,8 @@ function Bussiness() {
             <Header></Header>
             <br></br>
             <Container>
-                <div className='text-center busy'>
-                    <h2><b> BUSINESS PROGRAMS </b> </h2>
+                <div className='text-center busy heading-gap1'>
+                    <h2><b> Business Programs </b> </h2>
                 </div>
                 <Row>
                     <Col>

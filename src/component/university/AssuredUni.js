@@ -2,7 +2,8 @@ import React from 'react';
 import Footer from '../comman/Footer';
 import Header from '../comman/Header'
 import img2 from '../../asset/apply.png'
-import './asuureduni.scss';
+
+import '../../asset/Scss/Style.scss'
 
 
  function AssuredUni() {
@@ -184,12 +185,7 @@ import './asuureduni.scss';
       </div>
 
       <div className="assumain">
-   
-
-        {/* <h2 className="text-center mt-5 "> <b>Premium Partnerss</b></h2> */}
-      
-
-
+  
         <div className="row p-4 mt-4 ">
       
 

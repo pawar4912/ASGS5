@@ -1,5 +1,5 @@
 import React from "react";
-import "./Whyus.scss";
+import '../../asset/Scss/Style.scss'
 
 function Whyus() {
   return (

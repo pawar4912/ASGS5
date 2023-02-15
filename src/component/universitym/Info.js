@@ -1,5 +1,5 @@
 
-import './Info.scss';
+import '../../asset/Scss/Style.scss'
 import Background from '../../asset/ASGS final logo-01 2.png';
 import { Container, Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';

@@ -1,5 +1,6 @@
 import React from "react";
-import "./Video.scss";
+
+import '../../asset/Scss/Style.scss'
 
 function Video() {
   return (

@@ -1,0 +1,2313 @@
+// App.css code ...................................
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+// home scss file code ..................
+
+.section-heading {
+  font-family: Railway extra board;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45.18px;
+  color: #4b4b4b;
+}
+
+.divide-line {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.group1391 .section-heading,
+.mainfile .section-heading {
+  margin: 40px 0px;
+}
+
+.heading-gap {
+  margin: 40px 0px;
+}
+
+.heading-gap1 {
+  margin: 20px 0px;
+  text-align: center !important;
+  font-family: Railway extra board !important;
+  font-weight: 800 !important;
+  font-size: 40px !important;
+  color: #4b4b4b !important;
+}
+
+
+
+.heading-text {
+  text-align: center;
+  font-family: Railway extra board;
+  font-weight: 800;
+  font-size: 40px;
+  color: #4b4b4b;
+}
+
+.scroll-up-btn {
+  position: fixed !important;
+  right: 30px !important;
+  bottom: 100px !important;
+  height: 50px !important;
+  border-radius: 50px !important;
+  width: 50px !important;
+  background-color: #00bbd2 !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.search {
+  position: absolute;
+  width: 309px;
+  right: 135px;
+  top: 10px;
+}
+
+.search input {
+  border-radius: 0.375rem;
+  width: 309px;
+  border-width: 1px;
+  border-color: #a8a8a8;
+  padding-inline: 20px;
+  font-family: Arimo;
+  color: #a8a8a8;
+}
+
+.search .search-btn {
+  position: absolute;
+  right: 0px;
+  height: 33px;
+  border-radius: 0px 0.375rem 0.375rem 0px;
+  background-color: #00bbd2;
+  border-color: #00bbd2;
+}
+
+.search .search-btn:active {
+  background: #dc3846;
+}
+
+.search .search-btn svg {
+  vertical-align: initial;
+}
+
+.navbar-collapse {
+  margin-top: 42px;
+}
+
+
+
+//   header scss code ....................
+
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 88% !important;
+  }
+}
+
+.buttonBg {
+  background-color: #00BBD2 !important;
+  padding: 0.3em 1em !important;
+  border: 0 !important;
+  font-size: 17px !important;
+  font-family: "Arimo";
+  border-radius: 20px !important;
+  text-decoration: none !important;
+}
+
+.buttonBg a {
+  text-decoration: none !important;
+
+}
+
+.menusize {
+  width: 100% !important;
+}
+
+.navsec a {
+  text-decoration: none !important;
+
+}
+
+.main-style1 {
+  background: none !important;
+  border: none !important;
+}
+
+.newdrop {
+  margin-left: 3px !important;
+}
+
+.arrtext {
+  margin-top: -5px !important;
+}
+
+.dropclass {
+  background: none !important;
+  border: none !important;
+}
+
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end !important;
+  }
+}
+
+.btnapply,
+.text-white {
+  font-family: Railway extra board !important;
+}
+
+.btnapply:hover {
+  background: #dc3846 !important;
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    display: flex;
+    gap: 60px !important;
+  }
+}
+
+
+.navbar>.container {
+  height: 80px !important;
+  font-size: 20px;
+}
+
+.navsec {
+  background-color: #00BBD2;
+  height: 57px !important;
+
+  height: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Arimo' !important;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px;
+  align-items: center !important;
+
+}
+
+.text-white:hover {
+  color: #214261 !important;
+}
+
+.rs-dropdown-toggle:hover {
+  color: #214261 !important;
+}
+
+.sudes {
+  text-decoration: none;
+  color: black;
+  font-family: Railway extra board;
+}
+
+.sudes:hover {
+  text-decoration: none;
+  color: #00bbd2;
+}
+
+.suces {
+  font-family: 'Arimo';
+  font-weight: normal;
+}
+
+.suces:hover {
+  font-weight: bold !important;
+  text-decoration: none;
+}
+
+// ***********************
+
+.submenu {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: white;
+  gap: 2px !important;
+
+
+}
+
+.maindrop {
+  color: rgba(255, 255, 255, 1) !important;
+  font-family: 'Arimo' !important;
+  font-size: 20px !important;
+}
+
+
+.rs-dropdown-toggle,
+.rs-dropdown-toggle.rs-btn {
+  background: none;
+  color: var(--rs-text-link);
+  color: white;
+  font-weight: bold;
+  font-family: "Railway extra board" !important;
+  font-size: 20px;
+  font-weight: normal;
+
+}
+
+.rs-dropdown-toggle,
+.rs-dropdown-toggle.rs-btn:hover {
+  background: none;
+  color: white;
+
+}
+
+.rs-dropdown-menu {
+  font-size: 18px !important;
+}
+
+.rs-btn:focus,
+.rs-btn:hover {
+  background-color: #00bbd2 !important;
+}
+
+
+
+
+
+
+// footer scss code ....................
+
+
+
+.footera:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+.hodse:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+.footerad {
+  position: absolute;
+  width: 100%;
+
+
+}
+
+
+
+.img1f {
+  position: absolute;
+  bottom: 40px !important
+}
+
+.site-footer {
+  background: #137398;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5
+}
+
+.site-footer hr.small {
+  margin: 20px 0
+}
+
+.site-footer h6 {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+  font-family: 'Arimo';
+
+}
+
+.footer-links li {
+  display: block
+}
+
+.footer-links a {
+
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  color: #E5E5E5;
+}
+
+.footer-links.inline li {
+  display: inline-block
+}
+
+.site-footer .social-icons {
+  text-align: right
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-color: white;
+  color: white;
+  border-radius: 100%;
+  background-color: #137398;
+}
+
+.copyright-text {
+  margin: 0
+}
+
+@media (max-width:991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px
+  }
+}
+
+@media (max-width:767px) {
+  .site-footer {
+    padding-bottom: 0
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center
+  }
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px
+}
+
+.text-justify {
+
+  font-family: 'Arimo';
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #E5E5E5;
+
+}
+
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px rgb(255, 255, 255);
+  padding: 0.5em 0.6em;
+
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600
+  }
+}
+
+.flast1 {
+  background: #137398;
+  mix-blend-mode: multiply;
+  opacity: 0.90;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+
+.flast {
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #E5E5E5;
+}
+
+
+
+.social-icons a.dribbble1:hover {
+  background-color: #8b0539
+}
+
+
+
+
+
+
+// Carousel scss   code  ............................
+
+.toptext {
+  text-align: left !important;
+
+}
+
+.meg {
+  object-fit: cover !important;
+}
+
+.cas {
+  width: 100%;
+}
+
+.howButton:hover {
+
+  background: rgba(0, 187, 210, 1) !important;
+  cursor: pointer;
+}
+
+
+.text002 {
+  color: white;
+  width: 100%;
+  font-family: 'Raleway', bold;
+  font-size: 64px;
+  align-self: auto;
+
+  text-align: left;
+
+
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+
+}
+
+.text0021 {
+  color: rgb(10, 16, 36);
+  width: 100%;
+  font-family: 'Raleway', bold;
+  font-size: 64px;
+  align-self: auto;
+
+  text-align: left;
+
+
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+
+}
+
+
+
+.text {
+  color: white;
+  width: 100%;
+
+  font-size: 24px;
+  align-self: auto;
+
+  text-align: right !important;
+  font-family: 'Arimo';
+  font-weight: normal;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+.text21 {
+  color: black;
+  width: 100%;
+
+  font-size: 24px;
+  align-self: auto;
+
+  text-align: right !important;
+  font-family: 'Arimo';
+  font-weight: normal;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text021 {
+
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  background-color: #DC3846;
+  border-radius: 20px;
+  padding: 0.6em 2em !important;
+  border: 0 !important;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Mulish;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+
+
+.carousel-caption {
+
+  top: 90px;
+  right: 650px;
+
+}
+
+.howButton {
+  padding: 0.4em 1em !important;
+  border: 0 !important;
+  width: 255px;
+  font-size: 24px !important;
+  font-weight: bold;
+  background-color: #DC3846 !important;
+  border-radius: 15px !important;
+  font-family: 'Arimo';
+}
+
+.learnButton {
+  padding: 0.2em 1em !important;
+  border: 0 !important;
+
+  font-size: 24px !important;
+  font-weight: bold !important;
+
+  background-color: rgb(0, 187, 210) !important;
+  border-radius: 15px !important;
+  font-family: 'Arimo' !important;
+}
+
+.learnMore2 {
+  padding: 0.2em 1em !important;
+  border: 0 !important;
+  width: fit-content !important;
+  font-size: 24px !important;
+  font-weight: bold;
+  background-color: rgba(0, 187, 210, 1) !important;
+  border-radius: 15px !important;
+  font-family: 'Arimo';
+}
+
+
+
+// ImageASGS.scss code ................
+
+
+.partns {
+  color: white;
+  text-decoration: none;
+}
+
+.partns:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
+.bacds {
+  width: 100%;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  background: #F0F5FF !important;
+}
+
+
+.text103 {
+
+  color: rgba(32, 65, 96, 1);
+
+  font-size: 56px;
+  font-family: 'Raleway';
+  font-weight: bold;
+  line-height: normal;
+
+}
+
+.asgsimg1 {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.text110 {
+  color: black;
+  font-size: 24px;
+  font-family: 'Arimo';
+  font-weight: normal;
+  line-height: normal;
+
+}
+
+.text111 {
+  font-size: 25px;
+
+  font-family: 'Raleway';
+  font-weight: normal;
+  line-height: 1.5rem;
+}
+
+.group1365 {
+  color: #235D93;
+  font-size: 20px;
+}
+
+.text123 {
+  color: rgba(34, 158, 173, 1);
+
+  font-size: 24px;
+
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+.bords {
+  width: 100%;
+  border: 2px solid rgba(34, 158, 173, 1);
+  ;
+}
+
+.bordsa {
+  background: #00BBD2 !important;
+  border-radius: 10px !important;
+  border: none !important;
+
+  font-family: 'Arimo' !important;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.bordsa:hover {
+  background: #04AA6D !important;
+}
+
+
+// Video.scss code ....................
+
+.rectangle367 {
+  width: 100%;
+  height: 428px;
+  border-radius: 24px;
+}
+
+.videoheading {
+  font-family: 'Raleway' !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 36px !important;
+  line-height: 45px !important;
+  color: #4B4B4B !important;
+}
+
+.videoadj {
+  padding-left: 90px !important;
+  padding-top: 40px !important;
+  padding-right: 90px !important;
+}
+
+.video-section {
+  margin-top: 40px !important;
+}
+
+
+//    KnowMore.scss code .......................
+.hr {
+  background: linear-gradient(to right, rgba(28, 40, 90, 1), rgba(30, 58, 109, 0.6616), rgba(35, 93, 147, 0));
+  height: 4px;
+  border-color: linear-gradient(to right, rgb(177, 186, 222), rgba(30, 58, 109, 0.6616), rgba(35, 93, 147, 0));
+  border: 2.5px;
+  width: 100% !important;
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+
+}
+
+
+.group1351 {
+
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+
+}
+
+.knowmore {
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+
+.btnd:hover {
+  background-color: #04AA6D !important;
+}
+
+.headingMain12 {
+  font-family: 'Raleway' !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 36px !important;
+  line-height: 45px !important;
+  color: #4B4B4B !important;
+}
+
+.subheading1 {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1C3348;
+}
+
+.info-section {
+  margin-top: 45px;
+}
+
+.info-section .know-more-btn {
+  margin: 10px 0px 0px 0px;
+}
+
+.knowButton {
+  background: #00BBD2 !important;
+  border-radius: 20px !important;
+  border: none !important;
+  font-family: 'Arimo' !important;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+  font-style: normal;
+  color: #FFFFFF;
+
+}
+
+
+.knowButton {
+  background: #00BBD2 !important;
+
+}
+
+.img1know {
+
+  border-radius: 17px;
+  margin-top: -60px !important;
+
+}
+
+.imggroup {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.img2know {
+  width: 450px;
+  height: 277px;
+  position: absolute;
+  right: 210px;
+
+}
+
+.img3know {
+  width: 450px;
+  height: 277px;
+  position: absolute;
+  right: 190px;
+
+}
+
+//   Team.scss code .....................
+
+
+.teamHeading1 {
+  padding-left: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 36px !important;
+  color: #4B4B4B;
+}
+
+.infop1 {
+  text-align: center;
+}
+
+.imgSlider1 {
+  position: relative;
+}
+
+.mainname1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+
+.submainname1 {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+
+.testinfo1 {
+  width: 316px !important;
+  height: 100px !important;
+}
+
+
+.sbf {
+  font-family: "Raleway" !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 36px !important;
+  line-height: 45px !important;
+  color: #4B4B4B !important;
+}
+
+.bordss {
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+
+.abtteam {
+  display: flex !important;
+  justify-content: space-around !important;
+  gap: 10px !important;
+  margin-top: 40px !important;
+}
+
+
+.img_shad {
+  box-shadow: 0px 0px 10px 0px #6f6161;
+  border-radius: 10px;
+}
+
+.mdas {
+  padding-bottom: 30px !important;
+  padding-left: 17% !important;
+  padding-right: 17% !important;
+}
+
+.imgd {
+  margin-right: 25px !important;
+}
+
+.img_shad {
+  background-image: linear-gradient(to bottom right, rgb(239, 246, 250), rgb(191, 219, 223));
+}
+
+
+// Whyus.scss code  ..........................
+
+.group1391 {
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+  background-image: linear-gradient(69deg, rgba(215, 241, 246, 1) 0%, rgba(240, 245, 255, 0) 100%);
+  margin-top: 40px;
+}
+
+.text036 {
+
+  font-size: 36px;
+
+  font-family: 'Raleway';
+  font-weight: bold;
+
+}
+
+.arieo {
+  font-family: 'Arimo' !important;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50.2px;
+}
+
+.aeieod {
+  font-family: 'Arimo' !important;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30.12px;
+}
+
+
+//   Testimonials.scss code ...............................
+.headingstyle {
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Raleway';
+  color: #1C3348;
+}
+
+.testiarr {
+  width: 100% !important;
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+  margin-top: 40px;
+}
+
+.wrapper {
+
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.16);
+  border-radius: 0px 20px;
+  display: flex !important;
+  width: 500px;
+  gap: 1px !important;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+}
+
+
+@media(max-width:1279px) {
+  .wrapper {
+    width: 450px !important;
+  }
+}
+
+.description {
+  font-size: 14px;
+  font-family: 'Arimo';
+}
+
+.nametest {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1C3348;
+}
+
+
+.imgper1 {
+  border-radius: 50%;
+}
+
+.wrapper:after,
+.wrapper:before {
+  content: "";
+  position: absolute;
+  font-family: fontAwesome;
+
+}
+
+.wrapper:after {
+  content: "“";
+
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 251px;
+  color: #00BBD2;
+  left: 0;
+  transform: translate(-50%, -50%);
+
+}
+
+.wrapper:before {
+  content: "”";
+
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 251px;
+  color: #00BBD2;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+
+}
+
+
+
+.title,
+.description {
+  display: table-cell;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.hr {
+  background: linear-gradient(to right, rgba(28, 40, 90, 1), rgba(30, 58, 109, 0.6616), rgba(35, 93, 147, 0));
+  height: 4px;
+  border-color: linear-gradient(to right, rgb(177, 186, 222), rgba(30, 58, 109, 0.6616), rgba(35, 93, 147, 0));
+  border: 2.5px;
+  width: 90% !important;
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+
+}
+
+.widt {
+  width: 500px !important;
+}
+
+
+//   Recruiter.scss code ......................
+.group1020 {
+  align-items: center !important;
+}
+
+.slick-slider {
+  width: 100% !important;
+}
+
+.mainfile {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+
+.imgreq {
+
+  width: 130px !important;
+  height: 60px !important;
+}
+
+.sdiv1 {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.dcsd {
+  font-weight: bold;
+  font-family: 'Raleway';
+  font-size: 36px;
+
+  color: #1C3348;
+}
+
+
+.oure {
+  font-weight: bold;
+  font-size: 36px;
+  font-family: "Raleway";
+  color: #1C3348;
+}
+
+
+//   Carousels1.scss code ........................
+
+.howButton1 {
+  padding: 0.2em 1em !important;
+  border: 0 !important;
+  width: 170px;
+  height: 50px;
+  font-size: 24px !important;
+  background: #00BBD2;
+  border-radius: 78px !important;
+  color: #FFFFFF;
+  justify-content: center;
+
+}
+
+.navcas1 {
+  text-decoration: none !important;
+}
+
+.howButton2 {
+  padding: 0.2em 1em !important;
+  border: 0 !important;
+  width: 260px;
+  font-size: 24px !important;
+  background-color: #fff;
+  color: red;
+  border-radius: 24px !important;
+}
+
+.buttonG {
+  gap: 10px;
+}
+
+
+
+// Info.scss code..................
+.backa12 {
+
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding: 5px !important;
+}
+
+.bgco12 {
+  background: #F0F5FF !important;
+
+}
+
+.mainAdiv12 {
+  width: 100% !important;
+}
+
+.mainheadinfo12 {
+  font-family: 'Mulish' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 36px !important;
+  line-height: 45px !important;
+
+  color: #1C3348 !important;
+}
+
+.img12m {
+  background-color: white !important;
+  border-radius: 20px !important;
+  width: 311.41px !important;
+  height: 395px !important;
+
+
+
+}
+
+
+.cityn12 {
+  font-family: 'Mulish' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  color: #4B4B4B !important;
+  line-height: 30px !important;
+  text-align: left !important;
+
+
+}
+
+.cityn12 {
+
+  font-family: 'Mulish' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 21.2747px !important;
+  line-height: 27px !important;
+
+  color: #939393 !important;
+}
+
+.learnm12 {
+  font-family: 'Mulish' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18.8245px !important;
+  line-height: 24px !important;
+
+  color: rgba(238, 39, 56, 0.8) !important;
+}
+
+.img_imM12 {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+
+  border-radius: 20px !important;
+  height: 200px;
+  width: 100% !important;
+}
+
+.citym12 {
+  padding-left: 20px !important;
+}
+
+.cardaw12 {
+  background-color: white !important;
+
+  box-shadow: 1px 1px 1px 1px #888888 !important;
+}
+
+.cardaws12 {
+  height: 200px !important;
+
+}
+
+
+.postz12 {
+  position: relative !important;
+  top: -90px !important;
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.16) !important;
+  border-radius: 19px !important;
+}
+
+.matd12 {
+  margin-left: 8% !important;
+}
+
+.bords12 {
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+
+}
+
+.gapflex {
+  gap: 10px !important;
+}
+
+.borda12 {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+// **************
+
+.cardtext {
+
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.ourhead {
+  margin-bottom: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #1C3348;
+}
+
+
+.progimg {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.progtext {
+  margin-left: 10px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+
+
+  color: #4B4B4B;
+}
+
+.ourbutt {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.ourhead1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.ourtext {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+
+.ourbutton {
+  background: rgba(238, 39, 56, 0.8) !important;
+  padding: 0.6em 2em !important;
+  border: 0 !important;
+  font-size: 14px !important;
+  border-radius: 20px !important;
+  text-decoration: none !important;
+}
+
+
+// letsmeet.scss  code ...................
+
+.cardbody {
+  text-align: center;
+}
+
+.ourhead23 {
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #1C3348;
+
+}
+
+.ourtext10 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  color: #4B4B4B;
+
+}
+
+
+
+
+
+// placed.scss code ..........................
+
+
+.wrap {
+  background: #FFFFFF !important;
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.16) !important;
+  border-radius: 0px 20px !important;
+  display: table !important;
+
+  margin: 50px auto !important;
+  padding: 20px !important;
+  position: relative !important;
+}
+
+.title46 {
+
+
+  text-align: end !important;
+
+}
+
+.description46 {
+  display: table-cell !important;
+
+  vertical-align: middle !important;
+}
+
+.textspan {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+
+  /* Brand Secondary */
+
+  color: #1C3348;
+}
+
+.textspan1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+// itprograms.scss ..................
+
+.busy {
+  font-size: var(--h2);
+  line-height: 1.23;
+  font-weight: bold;
+}
+
+
+.testimain {
+
+  display: flex;
+  color: black;
+
+  padding-right: 40px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.testimain testiimg {
+  width: 134px;
+  height: 132.24px;
+  left: 126px;
+  top: 4708.94px;
+  filter: drop-shadow(0px 2px 24px rgba(19, 19, 19, 0.08));
+}
+
+.testimain h2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 20px;
+  color: #1C3348;
+  margin-top: 8px;
+
+}
+
+.bordsa4 {
+  background: white !important;
+  border-radius: 10px !important;
+  color: #00BBD2 !important;
+  border-color: #00BBD2 !important;
+  // padding: 10px !important;
+  font-family: 'Arimo' !important;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  padding: 4px !important;
+  font-style: normal;
+  text-align: left !important;
+  width: auto !important
+}
+
+.rowbuttons {
+  display: flex;
+  gap: 15px !important;
+  align-items: flex-start !important;
+
+}
+
+.unitext {
+  color: #00BBD2 !important;
+  text-decoration: none !important;
+}
+
+.testicard {
+  background: #fcf8f8;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 190px;
+
+}
+
+.boxmain {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.testicard:hover {
+  background-color: #00BBD2;
+  color: azure !important;
+  text-decoration: none !important;
+
+}
+
+.testimain h2:hover {
+  color: #FFFFFF;
+}
+
+.sudess {
+  text-decoration: none !important;
+
+}
+
+.imgsidediv {
+  width: 170px;
+  height: 166px;
+  margin-right: 15px;
+  background-color: rgb(211, 207, 207) !important;
+}
+
+
+
+
+
+
+
+//  university.scss  .....................
+
+.unv1 {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+  height: 380px !important;
+}
+
+.unimain {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+.newsearch {
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 13px !important;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+}
+
+
+
+.unniname p {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.whypre {
+  display: flex;
+
+  justify-content: center;
+}
+
+.whydiv {
+  background-color: #dbe0e0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 2px 0 0;
+  text-align: center;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+}
+
+.card_as:hover {
+  background-color: #00BBD2;
+}
+
+.checked {
+  color: orange;
+}
+
+.imgad1 {
+  width: 132.97px;
+  height: 132.97px;
+}
+
+.img32 {
+  width: 150px;
+  height: 132.97px;
+}
+
+
+.card_as {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+}
+
+
+.bordsa1 {
+  border-top: 4px solid #2ac4d2;
+  border-bottom: 4px solid #2ac4d2;
+  margin-top: -450PX;
+}
+
+.unniname {
+  clip-path: polygon(0 0, 91% 0, 100% 19%, 0 19%);
+  background-image: linear-gradient(to right, #1b98a3, #2ac4d2) !important;
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+
+}
+
+//   Apply.css code ...................................
+
+.indexpara {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  text-align: center;
+  margin-top: 140px;
+  color: white;
+  margin-bottom: 120px;
+}
+
+.indexpara h2 {
+  font-size: 31.53px;
+  font-weight: 700;
+  line-height: 39.57px;
+  font-family: 'Mulish';
+  height: fit-content;
+}
+
+.indexpara h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.indexpara p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+}
+
+.backimg {
+  background-image: url(../../asset/apply.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockimg {
+  background-color: black;
+  color: white;
+  opacity: .5;
+}
+
+.gredcon {
+  top: 120px;
+
+}
+
+.formg {
+  background-color: white;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  border-radius: 15.0855px;
+}
+
+.formgroup h1 {
+  text-align: center !important;
+  color: #4B4B4B;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27.2301px;
+  line-height: 34px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.formgroup {
+  text-align: center;
+}
+
+.indexpara2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.indexpara2 p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #4B4B4B;
+  margin-bottom: 20px;
+}
+
+
+// Partner.css code .........................
+
+.unv1 {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+  height: 380px;
+}
+
+.unimain {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+.newsearch {
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 13px;
+}
+
+/* card code */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 2px 0 0;
+  text-align: center;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+}
+
+.card_as:hover {
+  background-color: #00BBD2;
+}
+
+.checked {
+  color: orange;
+}
+
+.imgad1 {
+  width: 132.97px;
+  height: 132.97px;
+}
+
+
+.card_as {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+}
+
+
+// universitypart.css code ...................
+.univer {
+  background-color: #F0F5FF;
+}
+
+.univerpara {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: grid;
+
+}
+
+.univerpara1 {
+  margin-top: 20px;
+}
+
+.univerpara h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #1C3348;
+}
+
+.univerpara p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1C3348;
+}
+
+
+// asuureduni.scss code ...................
+.assuname p {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.assuname {
+  clip-path: polygon(0 0, 91% 0, 100% 19%, 0 19%);
+  background-image: linear-gradient(to right, #1b98a3, #2ac4d2) !important;
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+
+}
+
+.whydiv1 {
+  background-color: #dbe0e0;
+}
+
+.bordsa10 {
+  border-top: 4px solid #2ac4d2;
+  border-bottom: 4px solid #2ac4d2;
+  margin-top: -450PX;
+}
+
+.whyassu {
+  display: flex;
+
+  justify-content: center;
+}
+
+.assumain {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+.assnv1 {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+  height: 380px !important;
+}
+
+.imgad1 {
+  width: 100% !important;
+}
+
+.card10_as:hover {
+  background-color: #00BBD2;
+}
+
+.card10_as {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+}
+
+.img12 {
+  display: flex;
+  justify-content: center;
+  padding: 5px !important;
+}
+
+.imgad12 {
+  width: 109% !important;
+}
+
+// progression.scss code .........................
+.proname p {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.proname {
+  clip-path: polygon(0 0, 91% 0, 100% 19%, 0 19%);
+  background-image: linear-gradient(to right, #1b98a3, #2ac4d2) !important;
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+
+}
+
+.whydivpro {
+  background-color: #dbe0e0;
+}
+
+.bordsa15 {
+  border-top: 4px solid #2ac4d2;
+  border-bottom: 4px solid #2ac4d2;
+  margin-top: -450PX;
+}
+
+.whypro {
+  display: flex;
+
+  justify-content: center;
+}
+
+.promain {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+.pronv1 {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+  height: 380px !important;
+}
+
+.imgad19 {
+  width: 132.97px;
+  height: 132.97px;
+}
+
+.card16_as:hover {
+  background-color: #00BBD2;
+}
+
+.card16_as {
+  background: #FFFFFF;
+  border: 0.5px solid #A8A8A8;
+  border-radius: 8px;
+}
+
+.img13 {
+  display: flex;
+  justify-content: center;
+}
+
+// about.scss code ...................
+.underd {
+  font-family: 'Arimo';
+  font-weight: normal;
+  font-size: 20px !important;
+}
+
+.intera {
+  font-family: 'Arimo';
+  font-weight: bold;
+  font-size: 25px !important;
+}
+
+.oursa {
+  font-family: "Raleway" !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 36px !important;
+  line-height: 45px !important;
+  color: #4B4B4B !important;
+}
+
+.backa1 {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+}
+
+.bgco {
+  background: linear-gradient(79.71deg, #2B3141 -15.2%, rgba(43, 49, 65, 0) 124.74%), url(../../asset/college.png);
+  background-size: cover;
+}
+
+
+.img1m {
+  background-color: white;
+  border-radius: 20px;
+  width: 196.27px;
+  height: 240.14px;
+
+}
+
+
+.cityn {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 'semi-bold';
+  font-size: 24px;
+  color: #4B4B4B;
+  line-height: 30px;
+  text-align: center;
+  padding: 3%;
+}
+
+.img_imM {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-top: 50px;
+  height: 100.78px;
+  width: 139.57px;
+}
+
+
+.cardaw1 {
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.cardaw1:hover {
+  background-color: rgb(85, 143, 177);
+  color: white;
+  transform: scale(1.1);
+}
+
+.cardaw1:hover img {
+  content: url(../../asset/Icon-01.png);
+}
+
+.cardaw2 {
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.cardaw2:hover {
+  background-color: rgb(85, 143, 177);
+  color: white;
+  transform: scale(1.1);
+}
+
+.cardaw2:hover img {
+  content: url(../../asset/WHITE-2.png);
+}
+
+.cardaw3 {
+  background-color: white;
+}
+
+.cardaw3:hover {
+  background-color: rgb(85, 143, 177);
+  color: white;
+  transform: scale(1.1);
+}
+
+.cardaw3:hover img {
+  content: url(../../asset/WHITE-3.png);
+}
+
+.cap {
+  font-size: 35px;
+  border: none !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  color: rgba(35, 93, 147, 1) !important;
+}
+
+.arricon {
+  color: rgb(30, 216, 223) !important;
+  font-size: 25px !important;
+  margin-top: 4px !important;
+}
+
+.postz1 {
+  position: relative;
+  top: 40px;
+  box-shadow: 1px 1px 15px 0px #888888;
+  border-radius: 10px;
+}
+
+.matd1 {
+  margin-left: 8%;
+  font-family: 'Raleway';
+  font-weight: bold;
+
+}
+
+.bords1 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+.bords2 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width:768px) {
+  .gapflex {
+    flex-direction: column;
+
+  }
+}
+
+
+
+
+
+// ******************
+
+
+.backlogo {
+  display: flex !important;
+  justify-content: center !important;
+  font-family: 'Raleway';
+  font-weight: bold;
+  align-items: center !important;
+}
+
+.wid {
+  width: 60px !important;
+}
+
+// image code css
+
+.flip-card {
+
+  width: 200px;
+  height: 240px;
+
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+}

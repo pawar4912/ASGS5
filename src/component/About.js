@@ -1,5 +1,6 @@
 
-import './about.scss'
+
+import '../asset/Scss/Style.scss'
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import React from "react";
 import pic6 from '../asset/logo/Glo_cer_blue.png'
@@ -8,9 +9,9 @@ function About() {
 
     return (
 
-        <div>
+        <div >
           {/* About Section */}
-          <div className="container mt-5">
+          <div className="container mt-5" >
             <h3 className="section-heading">Our Programs</h3>
             <div className="row postz1">
               <div className="col  cardaw1 bords1" id="firstdiv1">  

@@ -1,13 +1,15 @@
 import React from "react";
 import Footer from "../comman/Footer";
 import Header from "../comman/Header";
-import "./university.scss";
+
+
+import '../../asset/Scss/Style.scss'
 
 function University() {
   return (
     <div>
       <Header />
-      <h3 className="heading-text heading-gap"> Academic Partners </h3>
+      <h3 className="heading-text heading-gap"> Academic Partners</h3>
       <div className="unimain">
         <div className="row p-4 mt-4 ">
           <div className="col-lg-3  ">

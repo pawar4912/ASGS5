@@ -1,5 +1,6 @@
 import React from "react";
-import "./ImageASGS.scss";
+
+import '../../asset/Scss/Style.scss'
 import Button from "react-bootstrap/Button";
 import { NavLink } from "react-router-dom";
 

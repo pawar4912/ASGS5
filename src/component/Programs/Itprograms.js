@@ -1,4 +1,6 @@
-import './itprograms.scss'
+
+import '../../asset/Scss/Style.scss'
+
 import { Container, Row, Col } from 'react-grid';
 
 import Box from '@mui/material/Box';
