@@ -1,9 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { Container, Row, Col, Input } from 'react-grid-system';
-// import { BiPhoneCall } from "react-icons/fa";
+import { BiPhoneCall } from "react-icons/fa";
 import Img5 from '../images/img5.png';
-import '../../asset/Scss/Style.scss'
 import Button from '@mui/material/Button';
 
 const Universitypart = () => {

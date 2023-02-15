@@ -1,7 +1,4 @@
 import React from "react";
-
-import '../../asset/Scss/Style.scss'
-
 function Video() {
   return (
     <div className="videoadj row" id="#videohs">

@@ -1,6 +1,4 @@
 import Carousel from "react-bootstrap/Carousel";
-import '../../asset/Scss/Style.scss'
-
 import  { handleClickScroll } from '../../common/utils/scrolls'
 import React from "react";
 import { useNavigate } from 'react-router-dom'

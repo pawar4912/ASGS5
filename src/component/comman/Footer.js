@@ -1,5 +1,3 @@
-
-import '../../asset/Scss/Style.scss'
 import { NavLink } from "react-router-dom";
 import ScrollButton from "../../common/components/ScrollButton";
 

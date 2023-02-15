@@ -1,5 +1,3 @@
-
-import '../../asset/Scss/Style.scss'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -9,7 +7,7 @@ function Team() {
       <hr className="hr divide-line" />
       <div className="row mb-5">
         <div className="bordss">
-          <h3 className="section-heading"> Our Team </h3>
+          <h3 className="section-heading"> Our Team</h3>
           <div className="abtteam">
             <div className="image-item1">
               <div className="img_shad p-3">

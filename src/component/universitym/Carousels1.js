@@ -2,8 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 
-import '../../asset/Scss/Style.scss'
-
 function Carousels1() {
 
     return(

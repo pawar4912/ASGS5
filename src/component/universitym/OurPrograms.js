@@ -1,9 +1,4 @@
 
-
-
-
-
-
 import Header from "../comman/Header";
 import Carousels1 from "../about/Carousels1";
 import Info from "../about/Info";
@@ -20,12 +15,10 @@ function OurPrograms() {
         <Header></Header>
        <Carousels1></Carousels1>
        <Info></Info>
-       
-    
-       <Letsmeet/>
+      <Letsmeet/>
       <Testimonials></Testimonials>
-    <Placed></Placed>
-     <Footer></Footer>
+      <Placed></Placed>
+       <Footer></Footer>
  
       </div>
       

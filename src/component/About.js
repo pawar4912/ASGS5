@@ -1,6 +1,3 @@
-
-
-import '../asset/Scss/Style.scss'
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import React from "react";
 import pic6 from '../asset/logo/Glo_cer_blue.png'

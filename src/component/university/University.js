@@ -3,8 +3,6 @@ import Footer from "../comman/Footer";
 import Header from "../comman/Header";
 
 
-import '../../asset/Scss/Style.scss'
-
 function University() {
   return (
     <div>

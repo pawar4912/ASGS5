@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import '../../asset/Scss/Style.scss'
 import {  NavLink } from "react-router-dom";
 
 function Carousels1() {
@@ -19,8 +18,7 @@ function Carousels1() {
           <div className="toptext">
             
             <h3 className="text002">Cyber Security from
- <br></br>
-            </h3>
+</h3>
             <h5 className="text002">
 Victoria University <br></br>
             </h5>

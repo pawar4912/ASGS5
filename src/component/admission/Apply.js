@@ -1,7 +1,4 @@
 import React from 'react';
-
-import '../../asset/Scss/Style.scss'
-
 import { Container, Row, Col } from 'react-grid-system';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';

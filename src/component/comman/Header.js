@@ -21,12 +21,15 @@ function Header() {
         className="navbar-nav"
       >
         <Container>
-          <Navbar.Brand href="#home" className="imgra">
-            <img
+          <Navbar.Brand className="imgra">
+            <NavLink to='/'>           
+             <img
               src={require("../../asset/ASGS-02.jpg")}
               height={69}
               alt="logo"
             />
+            </NavLink>
+
           </Navbar.Brand>
           <SearchBar />
           <Navbar.Collapse id="responsive-navbar-nav ">

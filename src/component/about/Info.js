@@ -1,7 +1,3 @@
-
-
-import '../../asset/Scss/Style.scss'
-import Background from '../../asset/ASGS final logo-01 2.png';
 import { Container, Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -31,9 +27,6 @@ function Info() {
 
           </CardMedia>
         <CardContent>
-          {/* <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography> */}
           <Typography>
             <p  className='cardtext'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
@@ -42,11 +35,6 @@ function Info() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      {/* <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions> */}
     </Card>
     </Col>
     <Col sm={4}  style={{alignItems:"center",justifyContent:"center",display:"flex"}}>
@@ -56,9 +44,6 @@ function Info() {
         <img alt=""  src={require('../../asset/Rectangle 32653.png')} className="img_imM12" />
           </CardMedia>
         <CardContent>
-          {/* <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography> */}
           <Typography>
             <p  className='cardtext'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
@@ -67,11 +52,6 @@ function Info() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      {/* <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions> */}
     </Card>
     </Col>
     <Col sm={4} style={{alignItems:"end",justifyContent:"end",display:"flex"}}>
@@ -81,10 +61,7 @@ function Info() {
         <img  alt=""  src={require('../../asset/Rectangle 32654.png')} className="img_imM12" />
           </CardMedia>
         <CardContent>
-          {/* <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography> */}
-          <Typography>
+         <Typography>
             <p  className='cardtext'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
           </p>
@@ -92,12 +69,7 @@ function Info() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      {/* <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions> */}
-    </Card>
+       </Card>
     </Col>
   </Row>
   </Container>
