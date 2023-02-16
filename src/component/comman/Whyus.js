@@ -5,7 +5,7 @@ function Whyus() {
   return (
     <div className=" row group1391">
       <h3 className="section-heading">Why Choose Us</h3>
-      <div className="d-flex ">
+      <div className="row">
         <div className="col-lg-4 mb-5">
           <div className="text-center">
             <h1 className="arieo">40 +</h1>

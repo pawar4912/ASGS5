@@ -14,8 +14,8 @@ function Carousels() {
     <Carousel className="cas">
       <Carousel.Item>
         <img
-          height={714}
-          className="d-block w-100 "
+          
+          className="d-block w-100 imghi"
           src={require("../../asset/image 1.jpg")}
           alt="First slide"
         />
@@ -28,24 +28,21 @@ function Carousels() {
             <h3 className="text0021">
               Finish On Campus
             </h3>
-            <br></br>
-            <span className="text21">
+        
+            <div className="text21 ">
               EOL is the online learning division <br></br>
               of Education Center of Australia
-            </span>
-            <br></br>
-            <br></br>
+            </div>
+         
 
-            <Button className="learnButton" onClick={() => navigate('international-bachelors')}>
-              Learn More
-            </Button>
+            <div className="learnMore2 leard" onClick={() => navigate('international-masters')}>Learn More</div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          height={714}
-          className="d-block w-100 "
+      
+          className="d-block w-100 imghi"
           src={require("../../asset/image 2.jpg")}
           alt="First slide"
         />
@@ -57,23 +54,22 @@ function Carousels() {
             <h3 className="text0021">
             Degree Online
             </h3>
-            <br></br>
-            <span className="text21">
+       
+            <div className="text21">
               EOL is the online learning division <br></br>
               of Education Center of Australia
-            </span>
+            </div>
             
-            <br></br>
-            <br></br>
+       
 
-            <div className="learnMore2" onClick={() => navigate('international-masters')}>Learn More</div>
+            <div className="learnMore2 leard" onClick={() => navigate('international-masters')}>Learn More</div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          height={714}
-          className="d-block w-100 "
+        
+          className="d-block w-100 imghi"
           src={require("../../asset/Rectangle321.png")}
           alt="First slide"
         />
@@ -83,15 +79,13 @@ function Carousels() {
               Dream of Global <br></br>
               Studies Begin Here
             </h3>
-            <br></br>
-            <span className="text">
+      
+            <div className="text">
               ASGS is a home to students wanting to study with <br></br> world’s
               top ranked universities with ease and <br></br>affordability.
-            </span>
-            <br></br>
-            <br></br>
-
-            <div onClick={() => handleClickScroll('#videohs')} className="howButton">How Does it Work</div>
+            </div>
+           
+            <div onClick={() => handleClickScroll('#videohs')} className="howButton leard">How Does it Work</div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

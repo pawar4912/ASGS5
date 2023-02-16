@@ -1,7 +1,6 @@
 import '../src/asset/Scss/Style.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter, Routes, Route } from "react-router-dom";
-
 import Home from './component/Home';
 import University from './component/university/University';
 import Apply from './component/admission/Apply';
