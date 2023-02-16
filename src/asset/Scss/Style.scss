@@ -585,10 +585,7 @@ i.fa {
   font-family: 'Raleway', bold;
   font-size: 64px;
   align-self: auto;
-
-  text-align: left;
-
-
+   text-align: left;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -601,10 +598,7 @@ i.fa {
   font-family: 'Raleway', bold;
   font-size: 64px;
   align-self: auto;
-
-  text-align: left;
-
-
+    text-align: left;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -620,28 +614,31 @@ i.fa {
   font-size: 24px;
   align-self: auto;
 
-  text-align: right !important;
+  text-align: left !important;
   font-family: 'Arimo';
   font-weight: normal;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  padding-top: 20px;
 }
 
-
+.leard
+{
+  margin-top: 20px !important;
+}
 .text21 {
   color: black;
   width: 100%;
-
   font-size: 24px;
   align-self: auto;
-
-  text-align: right !important;
+  text-align: left !important;
   font-family: 'Arimo';
   font-weight: normal;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  padding-top: 20px;
 }
 
 .text021 {
@@ -679,7 +676,7 @@ i.fa {
   padding: 0.4em 1em !important;
   border: 0 !important;
   width: 255px;
-  font-size: 24px !important;
+  font-size: 24px !important; 
   font-weight: bold;
   background-color: #DC3846 !important;
   border-radius: 15px !important;
@@ -725,9 +722,7 @@ i.fa {
 }
 
 
-.row {
-  --bs-gutter-x: 0rem !important;
-}
+
 
 .bacds {
   width: 100%;
@@ -2390,4 +2385,119 @@ img {
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
+}
+// Media part code start .................................
+
+@media (max-width:768px) {
+
+.text103
+{
+  font-size: 35px; 
+}
+.img1know 
+{
+  width: 100%;
+  margin-top: auto !important;
+}
+
+.abtteam
+{
+  flex-direction: column;
+ } 
+.bordss {
+  padding-left: 40px !important;
+}
+.group1391 {
+  padding-left: inherit!important;
+  padding-right: inherit !important;
+}
+
+.testiarr {
+  padding-left: inherit !important;
+  padding-right: inherit !important;
+}
+.videoadj {
+  padding-left: 40px !important;
+  padding-right: inherit !important;
+}
+.knowmore {
+  padding-left: 40px !important;
+  padding-right: inherit !important;
+}
+
+#dsas
+{
+  display: block !important;
+}
+
+.bacds
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  flex-direction: column;
+}
+
+.mainfile
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.imgreq {
+  width: 60px !important;
+  height: 35px !important;
+}
+
+.idsa
+{
+  display: block !important;
+}
+.section-heading
+{
+  text-align: center;
+}
+
+.text0021
+{
+  font-size: initial !important;
+}
+.carousel-caption
+{
+  top: 0px !important;
+}
+
+.text21 {
+font-size: revert;
+}
+.learnMore2
+{
+  font-size: inherit !important;
+}
+.text002
+{
+  font-size: x-large !important;
+}
+.text
+{
+  font-size: x-small !important;
+}
+.howButton
+{
+  width: 140px !important;
+  font-size: inherit !important;
+}
+.imghi
+{
+  height: 200px !important;
+}
+.matd1
+{
+  margin-left: auto !important;
+}
+
+.marwd
+{
+  padding: 3%;
+}
+
 }

@@ -7,15 +7,18 @@ function ImageASGS() {
     <div>
       <div className="row">
         <div className="d-flex bacds ">
-          <div className="col-md-7 ">
-            <div className="text103 mt-5 mx-5">
-              ASGS International Bachelor’s Program
+          <div className="col-md-7 marwd ">
+            <div className="text103 mt-5 ">
+              ASGS International 
             </div>
-            <div className="text111 mt-5 mx-5">
+            <div className="text103">
+              Bachelor’s Program
+            </div>
+            <div className="text111 mt-5 ">
               Start a bachelors degree from home online <br></br>
               programs and finish at ASGS Partnered University
             </div>
-            <div className=" mt-5 mx-5">
+            <div className=" mt-5 ">
               <ul className="text110">
                 <span>
                   <li>140+ Partner University</li>
