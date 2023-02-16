@@ -31,7 +31,6 @@ function Header() {
             </NavLink>
 
           </Navbar.Brand>
-          <SearchBar />
           <Navbar.Collapse id="responsive-navbar-nav ">
             <Nav className="submenu">
               <NavLink className="sudes" to="/Sucess">
@@ -43,6 +42,7 @@ function Header() {
               <NavLink className="sudes" to="/Study">
                 Study Center
               </NavLink>
+              <SearchBar />
               <Button
                 className="buttonBg btn-rounded btnapply"
                 onClick={() => navigate("apply")}
