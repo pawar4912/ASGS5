@@ -3,7 +3,7 @@ import React from "react";
 
 function Whyus() {
   return (
-    <div className=" row group1391">
+    <div className=" row group1391 rote">
       <h3 className="section-heading">Why Choose Us</h3>
       <div className="row">
         <div className="col-lg-4 mb-5">

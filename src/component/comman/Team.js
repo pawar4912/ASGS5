@@ -5,11 +5,11 @@ function Team() {
   return (
     <>
       <hr className="hr divide-line" />
-      <div className="row mb-5">
+      <div className="row mb-5 rote">
         <div className="bordss">
-          <h3 className="section-heading"> Our Team</h3>
-          <div className="abtteam">
-            <div className="image-item1">
+          <h3 className="section-heading ourtw"> Our Team</h3>
+          <div className="abtteam ">
+            <div className="image-item1 mt-5">
               <div className="img_shad p-3">
                 <img
                   src={require("../../asset/359.png")}
@@ -28,7 +28,7 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div className="image-item1">
+            <div className="image-item1 mt-5">
               <div className="img_shad p-3">
                 <img
                   src={require("../../asset/Rectangle 360.png")}
@@ -44,7 +44,7 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div className="image-item1">
+            <div className="image-item1 mt-5">
               <div className="img_shad p-3">
                 <img
                   src={require("../../asset/Rectangle 361.png")}
@@ -62,7 +62,7 @@ function Team() {
             </div>
           </div>
           <div className="abtteam">
-            <div className="image-item1">
+            <div className="image-item1 mt-5">
               <div className="img_shad p-3">
                 <img
                   src={require("../../asset/Rectangle 362.png")}
@@ -81,7 +81,7 @@ function Team() {
               </div>
             </div>
 
-            <div className="image-item1">
+            <div className="image-item1 mt-5">
               <div className="img_shad p-3">
                 <img
                   src={require("../../asset/Prof Bhawna Kumar.jpg")}
@@ -98,7 +98,7 @@ function Team() {
               </div>
             </div>
 
-            <div className="image-item1 ">
+            <div className="image-item1 mt-5">
               <div className="img_shad p-3">
                 <img
                   src={require("../../asset/Rectangle 368 (1).png")}

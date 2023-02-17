@@ -7,28 +7,28 @@ function Carousels1() {
   return (
     <Carousel className="cas">
       <Carousel.Item>
-        <img height={714}
-          className="d-block w-100"
+        <img 
+          className="d-block w-100 imgh"
           src={require("../../asset/CS1.jpg")}
           alt="First slide"
         />
-        <Carousel.Caption >
+        <Carousel.Caption className='margd'>
 
 
           <div className="toptext">
             
             <h3 className="text002">Cyber Security from
-</h3>
+                      </h3>
             <h5 className="text002">
-Victoria University <br></br>
+                     Victoria University 
             </h5>
-            <br></br>
-            <span className="text">
+            
+            <div className="text teds texts1">
               Build your career by enrolling into an advance<br></br> graduation or post graduation program and<br></br> study offshore.
-            </span>
-            <br></br><br></br>
+            </div>
+          
 
-            <div className="d-flex buttonG">
+            <div className="d-flex buttonG teds">
               <div className="howButton1">
               <NavLink className='text-white navcas1' to='/apply'> Apply Now </NavLink>
               </div>
@@ -43,8 +43,8 @@ Victoria University <br></br>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img height={714}
-          className="d-block w-100"
+        <img 
+          className="d-block w-100 imgh"
           src={require("../../asset/CS2-07.jpg")}
           alt="First slide"
         />
@@ -54,18 +54,18 @@ Victoria University <br></br>
           <div className="toptext">
             
             <h3 className="text002">Cyber Security from
- <br></br>
+
             </h3>
             <h5 className="text002">
-Victoria University <br></br>
+Victoria University
             </h5>
-            <br></br>
-            <span className="text">
+       
+            <div className="text teds texts1">
               Build your career by enrolling into an advance<br></br> graduation or post graduation program and<br></br> study offshore.
-            </span>
-            <br></br><br></br>
+            </div>
+          
 
-            <div className="d-flex buttonG">
+            <div className="d-flex buttonG teds">
               <div className="howButton1">
               <NavLink className='text-white navcas1' to='/apply'> Apply Now </NavLink>
               </div>
@@ -79,8 +79,8 @@ Victoria University <br></br>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img height={714}
-          className="d-block w-100"
+        <img 
+          className="d-block w-100 imgh"
           src={require("../../asset/CS3.jpg")}
           alt="First slide"
         />
@@ -90,18 +90,17 @@ Victoria University <br></br>
           <div className="toptext">
             
             <h3 className="text002">Cyber Security from
- <br></br>
             </h3>
             <h5 className="text002">
-Victoria University <br></br>
+Victoria University 
             </h5>
-            <br></br>
-            <span className="text">
+           
+            <div className="text teds texts1">
               Build your career by enrolling into an advance<br></br> graduation or post graduation program and<br></br> study offshore.
-            </span>
-            <br></br><br></br>
+            </div>
+         
 
-            <div className="d-flex buttonG">
+            <div className="d-flex buttonG teds">
               <div className="howButton1">
               <NavLink className='text-white navcas1' to='/apply'> Apply Now </NavLink>
               </div>

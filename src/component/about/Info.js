@@ -136,8 +136,8 @@ function Info() {
         </div>
         </div>
       
-      <div>
-      <Button className='ourbutton btn-rounded btnapply'> <NavLink className='text-white' to='/apply'> Download Syllabus </NavLink></Button>
+      <div className='btnapply1'>
+      <Button className='ourbutton btn-rounded  btnapply'> <NavLink className='text-white ' to='/apply'> Download Syllabus </NavLink></Button>
       </div>
       </div>
       </div>

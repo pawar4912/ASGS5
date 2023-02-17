@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function ImageASGS() {
   return (
     <div>
-      <div className="row">
+      <div className="row mdsxd">
         <div className="d-flex bacds ">
           <div className="col-md-7 marwd ">
             <div className="text103 mt-5 ">

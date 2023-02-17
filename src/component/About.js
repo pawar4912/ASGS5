@@ -51,7 +51,7 @@ function About() {
           {/* Select your study destination */}
           <div className="backa1 bgco" >
             <div >
-              <h3 className="pt-3 text-white mt-5 matd1">Select Your Study Destination</h3>
+              <h3 className="pt-3 text-white mt-5 matd1 magds">Select Your Study Destination</h3>
               <span className="pb-4 text-white matd1">To View Program</span>
               <div>
               <div className="d-flex  mt-5 mb-5 text-center  gapflex backlogo  ">

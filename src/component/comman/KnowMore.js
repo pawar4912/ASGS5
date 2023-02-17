@@ -4,7 +4,7 @@ function KnowMore() {
   return (
     <>
       <hr className="hr divide-line" />
-        <div className="row gx-5 knowmore">
+        <div className="row  knowmore">
           <div className="col-lg-6 col-md-6 col-sm-12">
             <h3 className="section-heading">Who We Are</h3>
             <div className="info-section">
@@ -19,7 +19,7 @@ function KnowMore() {
                 network and over 30,000+ students have enrolled in the institute
                 by March 2022.
               </span>
-              <div className="know-more-btn">
+              <div className="know-more-btn ">
                 <Button className="knowButton btnd">Know More</Button>
               </div>
             </div>

@@ -988,15 +988,17 @@ i.fa {
 }
 
 .bordss {
-  padding-left: 90px !important;
-  padding-right: 90px !important;
+  // padding-left: 90px !important;
+  // padding-right: 90px !important;
+}
+.ourtw
+{
+ padding-left: 90px !important; 
 }
 
 .abtteam {
   display: flex !important;
-  justify-content: space-around !important;
-  gap: 10px !important;
-  margin-top: 40px !important;
+  justify-content: space-evenly !important;
 }
 
 
@@ -2386,6 +2388,11 @@ img {
   transform: rotateY(180deg);
   border-radius: 20px;
 }
+
+.teds
+{
+  margin-top: 3%;
+}
 // Media part code start .................................
 
 @media (max-width:768px) {
@@ -2403,9 +2410,18 @@ img {
 .abtteam
 {
   flex-direction: column;
+  margin-left: 15%;
  } 
 .bordss {
-  padding-left: 40px !important;
+  padding-left: none !important;
+}
+.rote
+{
+  --bs-gutter-x: none !important;
+}
+.cardaw2
+{
+  flex: auto !important;
 }
 .group1391 {
   padding-left: inherit!important;
@@ -2417,12 +2433,14 @@ img {
   padding-right: inherit !important;
 }
 .videoadj {
-  padding-left: 40px !important;
-  padding-right: inherit !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+  --bs-gutter-x: none !important;
 }
 .knowmore {
-  padding-left: 40px !important;
+  padding-left: 0px !important;
   padding-right: inherit !important;
+  --bs-gutter-x: none !important;
 }
 
 #dsas
@@ -2464,7 +2482,9 @@ img {
 .carousel-caption
 {
   top: 0px !important;
+ 
 }
+
 
 .text21 {
 font-size: revert;
@@ -2490,7 +2510,12 @@ font-size: revert;
 {
   height: 200px !important;
 }
-.matd1
+// .matd1
+// {
+//   margin-left: auto !important;
+// }
+
+.magds
 {
   margin-left: auto !important;
 }
@@ -2499,5 +2524,82 @@ font-size: revert;
 {
   padding: 3%;
 }
+.mdsxd
+{
+  --bs-gutter-x: none !important;
+}
 
+.imgSlider1
+{
+  width: -webkit-fill-available !important; 
+}
+.ourtw
+{
+  padding-left: 0px !important;
+}
+.img_shad
+{
+  width: 85%;
+}
+
+.info-section 
+{
+  padding: 4%;
+}
+.know-more-btn 
+{
+  text-align: center;
+}
+.imgh
+{
+  height: 200px !important;
+}
+.howButton1
+{
+  width: 160px !important;
+  height: 37px !important;
+  font-size: 14px !important;
+}
+.howButton2
+{
+  
+  font-size: 14px !important;
+}
+.buttonG 
+{
+  margin-top: 3%;
+}
+.texts1
+{
+    margin-top: none !important;
+}
+.wasd
+{
+  display: inline-grid !important;
+}
+.htag
+{
+  font-size: 14px !important;
+  line-height: 5px;
+}
+
+.ourbutt
+{
+  flex-direction: column;
+  padding: 8%;
+}
+.ourhead1
+{
+  font-size: 22px;
+  text-align: center;
+}
+.ourtext 
+{
+  font-size: 18px;
+  text-align: center;
+}
+.btnapply1
+{
+  margin-top: 20px;
+}
 }

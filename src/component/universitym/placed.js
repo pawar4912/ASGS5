@@ -11,11 +11,11 @@ function Placed() {
 
                 <Row>
                     <Col sm={12}>
-                        <div className="wrap">
+                        <div className="wrap wasd">
                             
                             <div className="description46">
                                 <div>
-                                <h1> <span className='textspan'> 2000+ </span><span> Students get placed every year</span> </h1>
+                                <h1 > <span className='textspan'> 2000+ </span><span className='htag'> Students get placed every year</span> </h1>
                                 </div>
                                 
                                 
