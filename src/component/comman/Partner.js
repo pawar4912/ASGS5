@@ -9,14 +9,14 @@ import Header from './Header'
         <div className='unimain'>
         <h2 className="text-center mt-5 "> <b> Partners</b></h2>
         <div className="row">     
-          <div className="col-lg-12 p-4">
+          <div className="col-lg-12 mt-4">
             <div className="form-outline ">
               <input type="search" id="form1" className="form-control newsearch" placeholder="Search For unversity" aria-label="Search" />
             </div>
           </div>
         </div>
-        <div className="row p-4 ">
-          <div className="col-lg-3 unv1 pb-5 px-3 " >
+        <div className="row mt-5 ">
+          <div className="col-lg-3 unv1 pb-5   mt-3" >
             <p className="text-center p-3">Filter</p>
             <hr />
          
@@ -47,7 +47,7 @@ import Header from './Header'
           </div>
           <div className="col-lg-8">
             <div className="row">
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                     <img src={require("../../asset/download 1.png")} alt="Avatar" className='imgad1' />
@@ -67,7 +67,7 @@ import Header from './Header'
               </div>
               <div className="col-lg-1">
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                   <img src={require("../../asset/Stanford_University_seal_2003 1 (1).png")} alt="Avatar"  className='imgad1'  />
@@ -87,7 +87,7 @@ import Header from './Header'
               </div>
               <div className="col-lg-1">
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                   <img src={require("../../asset/university-education-logo-design-template-free-vector 1.png")} alt="Avatar"  className='imgad1'  />
@@ -109,7 +109,7 @@ import Header from './Header'
             </div>
             {/* 2nd */}
             <div className="row my-3">
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                     <img src={require("../../asset/download 1.png")} alt="Avatar" className='imgad1' />
@@ -129,7 +129,7 @@ import Header from './Header'
               </div>
               <div className="col-lg-1">
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                   <img src={require("../../asset/Stanford_University_seal_2003 1 (1).png")} alt="Avatar"  className='imgad1'  />
@@ -149,7 +149,7 @@ import Header from './Header'
               </div>
               <div className="col-lg-1">
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                   <img src={require("../../asset/university-education-logo-design-template-free-vector 1.png")} alt="Avatar"  className='imgad1'  />
@@ -171,7 +171,7 @@ import Header from './Header'
             </div>
             {/* 3rd */}
             <div className="row my-3">
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                     <img src={require("../../asset/download 1.png")} alt="Avatar" className='imgad1' />
@@ -191,7 +191,7 @@ import Header from './Header'
               </div>
               <div className="col-lg-1">
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                   <img src={require("../../asset/Stanford_University_seal_2003 1 (1).png")} alt="Avatar"  className='imgad1'  />
@@ -211,7 +211,7 @@ import Header from './Header'
               </div>
               <div className="col-lg-1">
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 mt-3">
                 <div className="card_as">
                   <div className="img1 my-4">
                   <img src={require("../../asset/university-education-logo-design-template-free-vector 1.png")} alt="Avatar"  className='imgad1'  />

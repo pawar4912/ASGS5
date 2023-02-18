@@ -24,21 +24,21 @@ function Itprograms() {
               </p>
               <div className="university-info">
                 <h4>Victoria University: </h4>
-                <div className="campus-wrapper">
+                <div className="campus-wrapper warew">
                   <Button
-                    className="buttonBg btn-rounded btnapply"
+                    className="buttonBg btn-rounded btnapply btfn"
                     onClick={() => navigate("apply")}
                   >
                     Sydney
                   </Button>
                   <Button
-                    className="buttonBg btn-rounded btnapply"
+                    className="buttonBg btn-rounded btnapply btfn"
                     onClick={() => navigate("apply")}
                   >
                     Melbourne
                   </Button>
                   <Button
-                    className="buttonBg btn-rounded btnapply"
+                    className="buttonBg btn-rounded btnapply btfn"
                     onClick={() => navigate("apply")}
                   >
                     Brisbane
@@ -62,21 +62,21 @@ function Itprograms() {
               </p>
               <div className="university-info">
                 <h4>Victoria University: </h4>
-                <div className="campus-wrapper">
+                <div className="campus-wrapper  warew">
                   <Button
-                    className="buttonBg btn-rounded btnapply"
+                    className="buttonBg btn-rounded btnapply btfn"
                     onClick={() => navigate("apply")}
                   >
                     Sydney
                   </Button>
                   <Button
-                    className="buttonBg btn-rounded btnapply"
+                    className="buttonBg btn-rounded btnapply btfn"
                     onClick={() => navigate("apply")}
                   >
                     Melbourne
                   </Button>
                   <Button
-                    className="buttonBg btn-rounded btnapply"
+                    className="buttonBg btn-rounded btnapply btfn"
                     onClick={() => navigate("apply")}
                   >
                     Brisbane

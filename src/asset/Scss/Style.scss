@@ -1720,6 +1720,7 @@ i.fa {
   height: 166px;
   margin-right: 15px;
   background-color: rgb(211, 207, 207) !important;
+  padding: 95px;
 }
 
 
@@ -2393,6 +2394,10 @@ img {
 {
   margin-top: 3%;
 }
+.testimain
+{
+  display: inline-flex !important; 
+}
 // Media part code start .................................
 
 @media (max-width:768px) {
@@ -2602,4 +2607,23 @@ font-size: revert;
 {
   margin-top: 20px;
 }
+
+.underd
+{
+  margin-bottom: 5% !important;
+}
+.btfn
+{
+  width: 60% !important;
+}
+.warew
+{
+flex-direction: column !important;
+
+}
+.card-wrapper .card-content
+{
+  padding: inherit !important;
+}
+
 }
