@@ -1,7 +1,5 @@
 import About from "./About";
 import Carousels from "./comman/Carousels";
-import Footer from "./comman/Footer";
-import Header from "./comman/Header";
 import ImageASGS from "./comman/ImageASGS";
 import KnowMore from "./comman/KnowMore";
 import Recruiters from "./comman/Recruiters";
@@ -14,7 +12,6 @@ import Whyus from "./comman/Whyus";
 function Home() {
   return (
     <div>
-      <Header></Header>
       <Carousels></Carousels>
       <About></About>
       <ImageASGS></ImageASGS>
@@ -24,7 +21,6 @@ function Home() {
       <Whyus></Whyus>
       <Testimonials></Testimonials>
       <Recruiters></Recruiters>
-      <Footer></Footer>
     </div>
   );
 }

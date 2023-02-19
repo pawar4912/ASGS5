@@ -1,11 +1,8 @@
 import React from 'react'
-import Footer from './Footer'
-import Header from './Header'
 
  function Partner() {
   return (
     <div>
-        <Header/>
         <div className='unimain'>
         <h2 className="text-center mt-5 "> <b> Partners</b></h2>
         <div className="row">     
@@ -234,13 +231,6 @@ import Header from './Header'
           </div>
         </div>  
       </div>
-
-
-
-
-
-        <Footer/>
-      
     </div>
   )
 }

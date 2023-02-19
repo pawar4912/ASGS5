@@ -1,15 +1,9 @@
 import React from 'react';
-import Footer from '../comman/Footer';
-import Header from '../comman/Header'
-import img2 from '../../asset/apply.png'
-
-
 
  function AssuredUni() {
 
   return (
   <div>
- <Header/>
 
  <div className='pt-5'>
        <div className="assuname ">
@@ -181,7 +175,6 @@ import img2 from '../../asset/apply.png'
           </div>
         </div>  
       </div>
-      <Footer/>
   </div>
   )
 }

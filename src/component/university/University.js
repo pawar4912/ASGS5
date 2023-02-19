@@ -1,12 +1,8 @@
 import React from "react";
-import Footer from "../comman/Footer";
-import Header from "../comman/Header";
-
 
 function University() {
   return (
     <div>
-      <Header />
       <h3 className="heading-text heading-gap"> Academic Partners</h3>
       <div className="unimain">
         <div className="row p-4 mt-4 ">
@@ -100,7 +96,6 @@ function University() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

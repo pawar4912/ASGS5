@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const SearchBar = () => {
   return (
-    <div class="search">
+    <div className="search">
       <input type="text" name="search-field" />
       <Button className='search-btn' >
       <FaSearch />

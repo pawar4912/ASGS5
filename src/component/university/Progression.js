@@ -1,7 +1,4 @@
 import React from 'react';
-import Footer from '../comman/Footer';
-import Header from '../comman/Header'
-import img2 from '../../asset/apply.png'
 
 function Progression() {
 
@@ -10,7 +7,6 @@ function Progression() {
 
   return (
     <div>
-      <Header />
       <div className='pt-5'>
         <div className="proname ">
           <p>PROGRESSION PARTNERS</p>
@@ -202,7 +198,6 @@ function Progression() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
