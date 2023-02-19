@@ -1582,30 +1582,36 @@ i.fa {
   height: 160px;
   display: flow-root;
 }
-.it-programs h3{
+.business-programs {
+  background-image: url(../../asset/logo/programs/Business-Banner.jpg);
+  height: 160px;
+  display: flow-root;
+}
+.it-programs h3,
+.business-programs h3{
   color: #ffffff;
   margin-top: 22px;
 }
-.it-programs p{
+.it-programs p,
+.business-programs p{
   text-align: center;
   margin-top: 22px;
   color: #ffffff;
   font-size: 16px;
 }
-#information-technology{
+#programs{
   margin: 0 40px 40px 40px;
 }
-#information-technology .row:after {
-  content: "";
+#programs .row:after {
   display: table;
   clear: both;
 }
 
-#information-technology .column {
+#programs .column {
   width: 33.33%;
   padding: 0 10px;
 }
-#information-technology .course-section {
+#programs .course-section {
   margin-top: 40px;
 }
 .card-wrapper .card-content h3{
@@ -1780,16 +1786,16 @@ i.fa {
 .university-info .campus-wrapper{
   display: flex;
 }
-#information-technology .card-wrapper button {
+#programs .card-wrapper button {
   margin: 0 2px;
 }
 @media screen and (max-width: 900px) {
-  #information-technology .column {
+  #programs .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
-  #information-technology{
+  #programs{
     margin-bottom: 40px;
     margin-left: 5px;
     margin-right: 5px;

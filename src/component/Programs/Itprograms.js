@@ -79,7 +79,7 @@ function Itprograms() {
           mattis odio lacus id nibh.
         </p>
       </div>
-      <div id="information-technology">
+      <div id="programs">
         <div className="course-section">
           <div className="course-wrapper">
             <img
@@ -154,6 +154,41 @@ function Itprograms() {
           <div className="course-wrapper">
             <img
               className="course-banner"
+              src={require("../../asset/logo/courses/artifical-intelligence.jpg")}
+              alt="artifical-intelligence"
+            />
+            <div className="course">
+              <h3>Artificial Intelligence </h3>
+              <div className="course-info">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse aliquam, ex eget bibendum molestie, lectus metus
+                  finibus erat, ac mattis odio lacus id nibh. Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit. Suspendisse aliquam, ex
+                  eget bibendum molestie, lectus metus finibus erat, ac mattis
+                  odio lacus id nibh. Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Suspendisse aliquam, ex eget bibendum
+                  molestie, lectus metus finibus erat, ac mattis odio lacus id
+                  nibh
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <Carousel cols={3} rows={1} gap={40} loop>
+              {artificialIntelligence.map((data, index) => (
+                <Carousel.Item className="column" key={index.toString()}>
+                  <ProgramModel data={data} />
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </div>
+        </div>
+        <div className="course-section">
+          <div className="course-wrapper">
+            <img
+              className="course-banner"
               src={require("../../asset/logo/courses/Information-Technology.jpg")}
               alt="Information-Technology"
             />
@@ -213,41 +248,6 @@ function Itprograms() {
           <div className="row">
             <Carousel cols={3} rows={1} gap={40} loop>
               {dataAnalytics.map((data, index) => (
-                <Carousel.Item className="column" key={index.toString()}>
-                  <ProgramModel data={data} />
-                </Carousel.Item>
-              ))}
-            </Carousel>
-          </div>
-        </div>
-        <div className="course-section">
-          <div className="course-wrapper">
-            <img
-              className="course-banner"
-              src={require("../../asset/logo/courses/artifical-intelligence.jpg")}
-              alt="artifical-intelligence"
-            />
-            <div className="course">
-              <h3>Artificial Intelligence </h3>
-              <div className="course-info">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse aliquam, ex eget bibendum molestie, lectus metus
-                  finibus erat, ac mattis odio lacus id nibh. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Suspendisse aliquam, ex
-                  eget bibendum molestie, lectus metus finibus erat, ac mattis
-                  odio lacus id nibh. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Suspendisse aliquam, ex eget bibendum
-                  molestie, lectus metus finibus erat, ac mattis odio lacus id
-                  nibh
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
-            <Carousel cols={3} rows={1} gap={40} loop>
-              {artificialIntelligence.map((data, index) => (
                 <Carousel.Item className="column" key={index.toString()}>
                   <ProgramModel data={data} />
                 </Carousel.Item>
