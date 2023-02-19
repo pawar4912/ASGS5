@@ -17,7 +17,7 @@ const Apply = () => {
                 <h2>Welcome to</h2>
               </div>
               <div>
-                <h1>Addmission 2022</h1>
+                <h1>Admission 2022</h1>
               </div>
               <div>
                 <p>

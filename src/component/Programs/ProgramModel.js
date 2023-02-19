@@ -1,7 +1,9 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const ProgramModel = ({data}) => {
+  const navigate = useNavigate();
   return (
     <div className="card-wrapper">
       <div className="card-content">
@@ -19,7 +21,7 @@ const ProgramModel = ({data}) => {
           </div>
             <div className="wrapper-button">
               <div className="brochure-button"> <FaDownload />Download Broacher</div>
-              <div className="apply-button"> Apply Now </div>
+              <div className="apply-button" onClick={() => navigate('prog')}> Apply Now </div>
             </div>
         </div>
       </div>
