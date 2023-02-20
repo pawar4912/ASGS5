@@ -21,7 +21,7 @@ const ProgramModel = ({data}) => {
           </div>
             <div className="wrapper-button">
               <div className="brochure-button"> <FaDownload />Download Broacher</div>
-              <div className="apply-button" onClick={() => navigate('prog')}> Apply Now </div>
+              <div className="apply-button" onClick={() => navigate('/prog')}> Apply Now </div>
             </div>
         </div>
       </div>
