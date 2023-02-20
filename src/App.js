@@ -1,7 +1,7 @@
 import "../src/asset/Scss/Style.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { Suspense } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import routes from "./routes";
 import Header from "./component/comman/Header";
 import Footer from "./component/comman/Footer";
@@ -9,7 +9,7 @@ import Footer from "./component/comman/Footer";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Header />
         <div className="main-content">
           <Suspense>
@@ -31,7 +31,7 @@ function App() {
           </Suspense>
         </div>
         <Footer />
-      </Router>
+      </HashRouter>
     </>
   );
 }
