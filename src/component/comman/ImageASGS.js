@@ -56,7 +56,7 @@ function ImageASGS() {
 
           <div className="col-md-5">
             <img
-              src={require("../../asset/Group 1463 (1).png")}
+              src={require("../../asset/ASGS-International.png")}
               alt="Rectangle326724548"
               style={{ height: "100%", width: "100%" }}
             />

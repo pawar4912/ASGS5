@@ -39,8 +39,7 @@ function University() {
               </select>
             </div>
           </div>
-          <div className="col-lg-1  "></div>
-          <div className="col-lg-8">
+          <div className="col-lg-8 partner-section">
             <div className="row">
               <div className="col-lg-3">
                 <div className="card_as">

@@ -967,6 +967,7 @@ i.fa {
 
 .infop1 {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .imgSlider1 {
@@ -1016,13 +1017,25 @@ i.fa {
   gap: 10px !important;
   margin-top: 40px !important;
 }
-
-
+.team-section{
+  background-color: #ebf3fb;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
 .img_shad {
   box-shadow: 0px 0px 10px 0px #6f6161;
-  border-radius: 10px;
+  border-radius: 50%;
+  height: 279px;
+  background-color: #ffffff;
 }
-
+.img_shad img{
+  border-radius: 50%;
+  height: 279px;
+  width: 256px;
+}
+.partner-section{
+  margin: 48px;
+}
 .mdas {
   padding-bottom: 30px !important;
   padding-left: 17% !important;
@@ -1033,9 +1046,6 @@ i.fa {
   margin-right: 25px !important;
 }
 
-.img_shad {
-  background-image: linear-gradient(to bottom right, rgb(239, 246, 250), rgb(191, 219, 223));
-}
 
 
 // Whyus.scss code  ..........................

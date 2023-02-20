@@ -44,8 +44,7 @@ function Footer() {
 
                       <li>
                         <a href="#" className="hodse">
-                          {" "}
-                          <NavLink className="footera" to="/Partner">
+                          <NavLink className="footera" to="/uni">
                             Academic Partners
                           </NavLink>
                         </a>
@@ -60,10 +59,9 @@ function Footer() {
 
                       <li>
                         <a className="hodse">
-                          {" "}
                           <NavLink className="footera" to="/Campus">
                             Campus Life
-                          </NavLink>{" "}
+                          </NavLink>
                         </a>
                       </li>
                     </ul>
@@ -73,15 +71,13 @@ function Footer() {
                     <ul className="footer-links">
                       <li>
                         <a className="hodse">
-                          {" "}
                           <NavLink className="footera" to="/apply">
                             Apply Now
-                          </NavLink>{" "}
+                          </NavLink>
                         </a>
                       </li>
                       <li>
                         <a href="#" className="hodse">
-                          {" "}
                           <NavLink className="footera" to="/Contact">
                             Contact Us
                           </NavLink>
@@ -89,19 +85,17 @@ function Footer() {
                       </li>
                       <li>
                         <a className="hodse">
-                          {" "}
                           <NavLink className="footera" to="/Policy">
                             Privacy Policy
-                          </NavLink>{" "}
+                          </NavLink>
                         </a>
                       </li>
 
                       <li>
                         <a className="hodse">
-                          {" "}
                           <NavLink className="footera" to="/Terms">
                             Terms & condition
-                          </NavLink>{" "}
+                          </NavLink>
                         </a>
                       </li>
                     </ul>
