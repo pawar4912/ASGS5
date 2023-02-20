@@ -1,95 +1,117 @@
 import React from "react";
-import Carousel from "better-react-carousel";
 import ProgramModel from "./ProgramModel";
 
 function Itprograms() {
   const cyberSecurity = [
     {
-      campusLogos: require("../../asset/logo/campus/VU-Sydney.jpg"),
+      image: require("../../asset/img/universities/VU-Sydney.jpg"),
+      logo: require("../../asset/logo/campus/VU-Sydney.jpg"),
       university: "Victoria University, Sydney",
     },
     {
-      campusLogos: require("../../asset/logo/campus/VU-Brisbane.jpg"),
+      image: require("../../asset/img/universities/vu-sydneys.jpg"),
+      logo: require("../../asset/logo/campus/VU-Brisbane.jpg"),
       university: "Victoria University, Brisbane",
     },
     {
-      campusLogos: require("../../asset/logo/campus/University-of-Canberra.jpg"),
+      image: require("../../asset/img/universities/Canberra.jfif"),
+      logo: require("../../asset/logo/campus/University-of-Canberra.jpg"),
       university: "University Of Canberra",
     },
   ];
   const dataScience = [
     {
-      campusLogos: require("../../asset/logo/campus/VU-Melbourne.jpg"),
-      university: "Victoria University",
+      image: require("../../asset/img/universities/VU-Melbourne.jpg"),
+      logo: require("../../asset/logo/campus/VU-Melbourne.jpg"),
+      university: "Victoria University, Melbourne",
     },
     {
-      campusLogos: require("../../asset/logo/campus/Swinburne.jpg"),
+      image: require("../../asset/img/universities/Swinburne-University.jpeg"),
+      logo: require("../../asset/logo/campus/Swinburne.jpg"),
       university: "Swinburne University",
     },
     {
-      campusLogos: require("../../asset/logo/campus/University-of-Canberra.jpg"),
+      image: require("../../asset/img/universities/Canberra.jfif"),
+      logo: require("../../asset/logo/campus/University-of-Canberra.jpg"),
       university: "University Of Canberra",
     },
   ];
   const informationTechnology = [
     {
-      campusLogos: require("../../asset/logo/campus/VU-Sydney.jpg"),
+      image: require("../../asset/img/universities/VU-Sydney.jpg"),
+      logo: require("../../asset/logo/campus/VU-Sydney.jpg"),
       university: "Victoria University, Sydney",
     },
     {
-      campusLogos: require("../../asset/logo/campus/VU-Brisbane.jpg"),
+      image: require("../../asset/img/universities/vu-sydneys.jpg"),
+      logo: require("../../asset/logo/campus/VU-Brisbane.jpg"),
       university: "Victoria University, Brisbane",
     },
     {
-      campusLogos: require("../../asset/logo/campus/VU-Melbourne.jpg"),
+      image: require("../../asset/img/universities/VU-Melbourne.jpg"),
+      logo: require("../../asset/logo/campus/VU-Melbourne.jpg"),
       university: "Victoria University, Melbourne",
     },
   ];
   const dataAnalytics = [
     {
-      campusLogos: require("../../asset/logo/campus/VU-Sydney.jpg"),
+      image: require("../../asset/img/universities/VU-Sydney.jpg"),
+      logo: require("../../asset/logo/campus/VU-Sydney.jpg"),
       university: "Victoria University, Sydney",
     },
     {
-      campusLogos: require("../../asset/logo/campus/VU-Brisbane.jpg"),
+      image: require("../../asset/img/universities/vu-sydneys.jpg"),
+      logo: require("../../asset/logo/campus/VU-Brisbane.jpg"),
       university: "Victoria University, Brisbane",
     },
     {
-      campusLogos: require("../../asset/logo/campus/University-of-Tasmania.jpg"),
+      image: require("../../asset/img/universities/University-of- Tasmania.jpeg"),
+      logo: require("../../asset/logo/campus/University-of-Tasmania.jpg"),
       university: "University Of Tasmania",
     },
   ];
   const artificialIntelligence = [
     {
-      campusLogos: require("../../asset/logo/campus/VU-Melbourne.jpg"),
+      image: require("../../asset/img/universities/VU-Melbourne.jpg"),
+      logo: require("../../asset/logo/campus/VU-Melbourne.jpg"),
       university: "Victoria University",
     },
     {
-      campusLogos: require("../../asset/logo/campus/Charles-Sturt.jpg"),
+      image: require("../../asset/img/universities/Charles-Sturt.jpg"),
+      logo: require("../../asset/logo/campus/Charles-Sturt.jpg"),
       university: "Charles Sturt University",
     },
   ];
   return (
     <div>
       <div className="it-programs">
-        <h3 className="heading-text">Information Technology</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          aliquam, ex eget bibendum molestie, lectus metus finibus erat, ac
-          mattis odio lacus id nibh.
-        </p>
+        <img
+          className="heading-banner"
+          src={require("../../asset/logo/programs/IT.jpg")}
+          alt="IT"
+        />
+        <div className="heading-info">
+          <h3 className="heading-text">Information Technology</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            aliquam, ex eget bibendum molestie, lectus metus finibus erat, ac
+            mattis odio lacus id nibh.
+          </p>
+        </div>
       </div>
       <div id="programs">
         <div className="course-section">
           <div className="course-wrapper">
-            <img
-              className="course-banner"
-              src={require("../../asset/logo/courses/Cyber-Security.jpg")}
-              alt="cyber-security"
-            />
             <div className="course">
-              <h3>Cyber Security</h3>
+              <div className="course-img">
+                <img
+                  className="course-banner"
+                  src={require("../../asset/logo/courses/Cyber-Security.jpg")}
+                  alt="cyber-security"
+                />
+              </div>
               <div className="course-info">
+                <h3>Cyber Security</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse aliquam, ex eget bibendum molestie, lectus metus
@@ -106,25 +128,23 @@ function Itprograms() {
           </div>
 
           <div className="row">
-            <Carousel cols={3} rows={1} gap={40} loop>
-              {cyberSecurity.map((data, index) => (
-                <Carousel.Item className="column" key={index.toString()}>
-                  <ProgramModel data={data} />
-                </Carousel.Item>
-              ))}
-            </Carousel>
+            {cyberSecurity.map((data, index) => (
+              <ProgramModel data={data} key={index} />
+            ))}
           </div>
         </div>
         <div className="course-section">
           <div className="course-wrapper">
-            <img
-              className="course-banner"
-              src={require("../../asset/logo/courses/Data-Science.jpg")}
-              alt="cyber-security"
-            />
             <div className="course">
-              <h3>Data Science </h3>
+              <div className="course-img">
+                <img
+                  className="course-banner"
+                  src={require("../../asset/logo/courses/Data-Science.jpg")}
+                  alt="cyber-security"
+                />
+              </div>
               <div className="course-info">
+                <h3>Data Science </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse aliquam, ex eget bibendum molestie, lectus metus
@@ -141,25 +161,23 @@ function Itprograms() {
           </div>
 
           <div className="row">
-            <Carousel cols={3} rows={1} gap={40} loop>
-              {dataScience.map((data, index) => (
-                <Carousel.Item className="column" key={index.toString()}>
-                  <ProgramModel data={data} />
-                </Carousel.Item>
-              ))}
-            </Carousel>
+            {dataScience.map((data, index) => (
+              <ProgramModel data={data} key={index} />
+            ))}
           </div>
         </div>
         <div className="course-section">
           <div className="course-wrapper">
-            <img
-              className="course-banner"
-              src={require("../../asset/logo/courses/artifical-intelligence.jpg")}
-              alt="artifical-intelligence"
-            />
             <div className="course">
-              <h3>Artificial Intelligence </h3>
+              <div className="course-img">
+                <img
+                  className="course-banner"
+                  src={require("../../asset/logo/courses/artifical-intelligence.jpg")}
+                  alt="artifical-intelligence"
+                />
+              </div>
               <div className="course-info">
+                <h3>Artificial Intelligence </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse aliquam, ex eget bibendum molestie, lectus metus
@@ -176,25 +194,23 @@ function Itprograms() {
           </div>
 
           <div className="row">
-            <Carousel cols={3} rows={1} gap={40} loop>
-              {artificialIntelligence.map((data, index) => (
-                <Carousel.Item className="column" key={index.toString()}>
-                  <ProgramModel data={data} />
-                </Carousel.Item>
-              ))}
-            </Carousel>
+            {artificialIntelligence.map((data, index) => (
+              <ProgramModel data={data} key={index} />
+            ))}
           </div>
         </div>
         <div className="course-section">
           <div className="course-wrapper">
-            <img
-              className="course-banner"
-              src={require("../../asset/logo/courses/Information-Technology.jpg")}
-              alt="Information-Technology"
-            />
             <div className="course">
-              <h3>Information Technology</h3>
+              <div className="course-img">
+                <img
+                  className="course-banner"
+                  src={require("../../asset/logo/courses/Information-Technology.jpg")}
+                  alt="Information-Technology"
+                />
+              </div>
               <div className="course-info">
+                <h3>Information Technology</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse aliquam, ex eget bibendum molestie, lectus metus
@@ -211,25 +227,23 @@ function Itprograms() {
           </div>
 
           <div className="row">
-            <Carousel cols={3} rows={1} gap={40} loop>
-              {informationTechnology.map((data, index) => (
-                <Carousel.Item className="column" key={index.toString()}>
-                  <ProgramModel data={data} />
-                </Carousel.Item>
-              ))}
-            </Carousel>
+            {informationTechnology.map((data, index) => (
+              <ProgramModel data={data} key={index} />
+            ))}
           </div>
         </div>
         <div className="course-section">
           <div className="course-wrapper">
-            <img
-              className="course-banner"
-              src={require("../../asset/logo/courses/Data-analytics.jpg")}
-              alt="Data-analytics"
-            />
             <div className="course">
-              <h3>Data Analytics </h3>
+              <div className="course-img">
+                <img
+                  className="course-banner"
+                  src={require("../../asset/logo/courses/Data-analytics.png")}
+                  alt="Data-analytics"
+                />
+              </div>
               <div className="course-info">
+                <h3>Data Analytics </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse aliquam, ex eget bibendum molestie, lectus metus
@@ -246,13 +260,9 @@ function Itprograms() {
           </div>
 
           <div className="row">
-            <Carousel cols={3} rows={1} gap={40} loop>
-              {dataAnalytics.map((data, index) => (
-                <Carousel.Item className="column" key={index.toString()}>
-                  <ProgramModel data={data} />
-                </Carousel.Item>
-              ))}
-            </Carousel>
+            {dataAnalytics.map((data, index) => (
+              <ProgramModel data={data} key={index} />
+            ))}
           </div>
         </div>
       </div>

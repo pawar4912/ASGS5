@@ -12,7 +12,7 @@ function Team() {
             <div>
               <div className="img_shad">
                 <img
-                  src={require("../../asset/359.png")}
+                  src={require("../../asset/logo/team/Rupesh-Singh.png")}
                   width={245}
                   height={279}
                   className="imgSlider1 "
@@ -23,14 +23,14 @@ function Team() {
                 <span className="mainname1">Rupesh Singh</span>
                 <br></br>
                 <span className="submainname1">
-                  CEO, Education center of Australia{" "}
+                CEO & Director, ECA
                 </span>
               </div>
             </div>
             <div>
               <div className="img_shad">
                 <img
-                  src={require("../../asset/Rectangle 360.png")}
+                  src={require("../../asset/logo/team/Rajesh-Singh.png")}
                   width={245}
                   height={279}
                   className="imgSlider1 "
@@ -40,13 +40,13 @@ function Team() {
               <div className="infop1">
                 <span className="mainname1">Rajesh Singh</span>
                 <br></br>
-                <span className="submainname1">CEO, ECA Global</span>
+                <span className="submainname1">CEO & Director - ECA Global</span>
               </div>
             </div>
             <div>
               <div className="img_shad">
                 <img
-                  src={require("../../asset/Rectangle 361.png")}
+                  src={require("../../asset/logo/team/Lawerence.png")}
                   width={245}
                   height={279}
                   className="imgSlider1 "
@@ -56,7 +56,7 @@ function Team() {
               <div className="infop1">
                 <span className="mainname1">Dr. Lawrence Pratchett</span>
                 <br></br>
-                <span className="submainname1">CEO, Australian School </span>
+                <span className="submainname1">	CEO, ASGS</span>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ function Team() {
             <div>
               <div className="img_shad">
                 <img
-                  src={require("../../asset/Rectangle 362.png")}
+                  src={require("../../asset/logo/team/Scott-Dickson.png")}
                   width={245}
                   height={279}
                   className="imgSlider1 "
@@ -74,16 +74,14 @@ function Team() {
               <div className="infop1">
                 <span className="mainname1">Dr. Scott Dickson</span>
                 <br></br>
-                <span className="submainname1">
-                  Chief Academic Officer, ECA
-                </span>
+                <span className="submainname1">	Chief Academic Officer, ECA</span>
               </div>
             </div>
 
             <div>
               <div className="img_shad">
                 <img
-                  src={require("../../asset/Prof Bhawna Kumar.jpg")}
+                  src={require("../../asset/logo/team/Bhawna-Kumar.png")}
                   width={245}
                   height={279}
                   className="imgSlider1 "
@@ -93,14 +91,14 @@ function Team() {
               <div className="infop1">
                 <span className="mainname1">Prof. Bhawna Kumar</span>
                 <br></br>
-                <span className="submainname1">Academic Director</span>
+                <span className="submainname1">Academic Director, ASGS</span>
               </div>
             </div>
 
             <div>
               <div className="img_shad">
                 <img
-                  src={require("../../asset/Rectangle 368 (1).png")}
+                  src={require("../../asset/logo/team/MANOJ-KUMAR.png")}
                   width={230}
                   height={279}
                   className="imgSlider1 imgd"
