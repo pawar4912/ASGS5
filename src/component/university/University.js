@@ -3,14 +3,14 @@ import React from "react";
 function University() {
   return (
     <div>
-       <div className="it-programs">
+      <div className="it-programs">
         <img
           className="heading-banner"
           src={require("../../asset/logo/programs/IT.jpg")}
           alt="IT"
         />
         <div className="heading-info">
-          <h3 className="heading-text">Academic Partners</h3>
+          <h3 className="heading-text"> Academic Partners</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             aliquam, ex eget bibendum molestie, lectus metus finibus erat, ac
@@ -18,8 +18,6 @@ function University() {
           </p>
         </div>
       </div>
-      {/* <h3 className="heading-text heading-gap"> Academic Partners</h3> */}
-      
       <div className="unimain">
         <div className="row p-4 mt-4 ">
           <div className="col-lg-3  ">
@@ -39,7 +37,9 @@ function University() {
               {/* <span>Select Country</span> */}
               <div className="">Select Country</div>
               <select className="form-control vodiapicker ">
-                <option value="australia" selected>Australia</option>
+                <option value="australia" selected>
+                  Australia
+                </option>
               </select>
               <div className="mt-4">Select Programs</div>
               <select className="form-control">
@@ -58,7 +58,9 @@ function University() {
               <div className="mt-4">Select Course</div>
               <select className="form-control ">
                 <option value="">Select Course</option>
-                <option value="information-technology">Information Technology</option>
+                <option value="information-technology">
+                  Information Technology
+                </option>
               </select>
             </div>
           </div>
