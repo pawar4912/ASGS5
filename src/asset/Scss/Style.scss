@@ -80,8 +80,9 @@
   text-align: center;
   font-family: Railway extra board;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 64px;
   color: #4b4b4b;
+  margin-top: 11%;
 }
 
 .scroll-up-btn {
@@ -1590,12 +1591,13 @@ i.fa {
 }
 .course-section img{
   width: 98%;
+  height: 100%;
   border-radius: 6px 0px 0 6px;
 }
 .course-wrapper h3{
   font-family: Railway extra board;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 34px;
   margin: 25px;
 }
 .card-wrapper {
@@ -1657,6 +1659,8 @@ i.fa {
 }
 #programs .course-section {
   margin-top: 40px;
+  padding-left: 110px;
+  padding-right: 110px;
 }
 .card-wrapper .card-content h3{
   display: inline-block;
@@ -1921,7 +1925,11 @@ i.fa {
 }
 
 
-
+.hrw
+{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
 
 
 
@@ -1932,7 +1940,7 @@ i.fa {
   background: #FFFFFF;
   border: 0.5px solid #A8A8A8;
   border-radius: 8px;
-  height: 380px !important;
+  // height: 420px !important;
 }
 
 .unimain {
@@ -2135,7 +2143,7 @@ img {
   background: #FFFFFF;
   border: 0.5px solid #A8A8A8;
   border-radius: 8px;
-  height: 380px;
+  // height: 380px;
 }
 
 .unimain {

@@ -3,7 +3,23 @@ import React from "react";
 function University() {
   return (
     <div>
-      <h3 className="heading-text heading-gap"> Academic Partners</h3>
+       <div className="it-programs">
+        <img
+          className="heading-banner"
+          src={require("../../asset/logo/programs/IT.jpg")}
+          alt="IT"
+        />
+        <div className="heading-info">
+          <h3 className="heading-text">Academic Partners</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            aliquam, ex eget bibendum molestie, lectus metus finibus erat, ac
+            mattis odio lacus id nibh.
+          </p>
+        </div>
+      </div>
+      {/* <h3 className="heading-text heading-gap"> Academic Partners</h3> */}
+      
       <div className="unimain">
         <div className="row p-4 mt-4 ">
           <div className="col-lg-3  ">
@@ -16,14 +32,21 @@ function University() {
                 aria-label="Search"
               />
             </div>
-            <div className="unv1 pb-5 px-3">
-              <p className="text-center p-3">Filter</p>
-              <hr />
+            <div className="unv1 pb-4 px-3">
+              <p className="text-center pt-2">Filter</p>
+              <hr className="hrw"/>
 
               {/* <span>Select Country</span> */}
-              <div className="mt-4">Select Country</div>
+              <div className="">Select Country</div>
               <select className="form-control vodiapicker ">
                 <option value="australia" selected>Australia</option>
+              </select>
+              <div className="mt-4">Select Programs</div>
+              <select className="form-control">
+                <option value="">Select Programs</option>
+                <option value="Information Technology">Information Technology</option>
+               <option value="International Masters">International Masters</option>
+                <option value="International Short Courses">International Short Courses </option>
               </select>
               <div className="mt-4">Select Campus</div>
               <select className="form-control">
@@ -40,7 +63,8 @@ function University() {
             </div>
           </div>
           <div className="col-lg-8 partner-section">
-            <div className="row">
+          
+            <div className="row mt-5">
               <div className="col-lg-3">
                 <div className="card_as">
                   <div className="img1 my-4">
