@@ -34,7 +34,7 @@ function University() {
             </div>
             <div className="unv1 pb-4 px-3">
               <p className="text-center pt-2">Filter</p>
-              <hr className="hrw"/>
+              <hr className="seprater-line"/>
 
               {/* <span>Select Country</span> */}
               <div className="">Select Country</div>
