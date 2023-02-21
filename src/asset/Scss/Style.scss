@@ -1941,11 +1941,23 @@ i.fa {
   // height: 420px !important;
 }
 
-.unimain {
+.academic-partner-main {
   padding-left: 80px !important;
   padding-right: 80px !important;
-}
 
+  .university-wrapper{
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+  }
+  .container-wrapper{
+    display: flex;
+    margin-top: 40px;
+  }
+  .filter{
+    width: 20%;
+  }
+}
 .newsearch {
   height: 40px;
   background: #FFFFFF;

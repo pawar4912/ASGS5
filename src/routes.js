@@ -1,8 +1,8 @@
 import Home from './component/Home';
-import University from './component/university/University';
+import AcademicPartner from './component/AcademicPartner/AcademicPartner';
 import Apply from './component/admission/Apply';
-import AssuredUni from './component/university/AssuredUni';
-import Progression from './component/university/Progression';
+import AssuredUni from './component/AcademicPartner/AssuredUni';
+import Progression from './component/AcademicPartner/Progression';
 import Itprograms from './component/Programs/Itprograms';
 import Bussiness from './component/Programs/Bussiness';
 import Video from './component/comman/Video';
@@ -28,8 +28,8 @@ const routes = [
         component: <Home/>,
     },
     {
-        path: '/uni',
-        component: <University/>,
+        path: '/academic-partner',
+        component: <AcademicPartner/>,
     },
     {
         path: '/apply',

@@ -1,6 +1,7 @@
 import React from "react";
+import UniversityModel from "./UniversityModel";
 
-function University() {
+function AcademicPartner() {
   return (
     <div>
       <div className="it-programs">
@@ -18,9 +19,9 @@ function University() {
           </p>
         </div>
       </div>
-      <div className="unimain">
-        <div className="row p-4 mt-4 ">
-          <div className="col-lg-3  ">
+      <div className="academic-partner-main">
+        <div className="container-wrapper">
+          <div className="filter ">
             <div className="form-outline mb-2">
               <input
                 type="search"
@@ -66,57 +67,12 @@ function University() {
           </div>
           <div className="col-lg-8 partner-section">
           
-            <div className="row mt-5">
-              <div className="col-lg-3">
-                <div className="card_as">
-                  <div className="img1 my-4">
-                    <img
-                      src={require("../../asset/img/Victoria_1.png")}
-                      alt="Avatar"
-                      className="imgad1"
-                    />
-                  </div>
-                  <div className="container">
-                    <p className="text-center">
-                      <b>Victoria University</b>
-                    </p>
-                    <p className="text-center">Sydney</p>
-                    <div className="text-center mb-4">
-                      <span className="fa fa-star checked" />
-                      <span className="fa fa-star checked" />
-                      <span className="fa fa-star checked" />
-                      <span className="fa fa-star" />
-                      <span className="fa fa-star" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-1"></div>
-              <div className="col-lg-3">
-                <div className="card_as">
-                  <div className="img1 my-4">
-                    <img
-                      src={require("../../asset/img/vu brisbane.png")}
-                      alt="Avatar"
-                      height={300}
-                      className="imgad1"
-                    />
-                  </div>
-                  <div className="container">
-                    <p className="text-center">
-                      <b>Victoria University</b>
-                    </p>
-                    <p className="text-center">Brisbane</p>
-                    <div className="text-center mb-4">
-                      <span className="fa fa-star checked" />
-                      <span className="fa fa-star checked" />
-                      <span className="fa fa-star checked" />
-                      <span className="fa fa-star" />
-                      <span className="fa fa-star" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="university-wrapper">
+              <UniversityModel />
+              <UniversityModel />
+              <UniversityModel />
+              <UniversityModel />
+              <UniversityModel />
             </div>
           </div>
         </div>
@@ -124,4 +80,4 @@ function University() {
     </div>
   );
 }
-export default University;
+export default AcademicPartner;

@@ -44,7 +44,7 @@ function Footer() {
 
                       <li>
                         <a href="#" className="hodse">
-                          <NavLink className="footera" to="/uni">
+                          <NavLink className="footera" to="/academic-partner">
                             Academic Partners
                           </NavLink>
                         </a>
