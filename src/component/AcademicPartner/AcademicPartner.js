@@ -2,6 +2,38 @@ import React from "react";
 import UniversityModel from "./UniversityModel";
 
 function AcademicPartner() {
+  const universities = [
+    {
+      logo: require("../../asset/logo/UniversityLogos/CharlesSturt.png"),
+      name: 'Charles Sturt',
+      premium: false
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/Liverpool.png"),
+      name: 'Liverpool John Moores',
+      premium: false
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/Swinburne.png"),
+      name: 'Swinburne University',
+      premium: false
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/VU-Brisbane.png"),
+      name: 'Victoria University, Brisbane',
+      premium: true
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/VU-Melbourne.png"),
+      name: 'Victoria University, Melbourne',
+      premium: false
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/VU-Sydney.png"),
+      name: 'Victoria University, Sydney',
+      premium: true
+    }
+  ]
   return (
     <div>
       <div className="it-programs">
@@ -67,12 +99,10 @@ function AcademicPartner() {
           </div>
           <div className="col-lg-8 partner-section">
           
-            <div className="university-wrapper">
-              <UniversityModel />
-              <UniversityModel />
-              <UniversityModel />
-              <UniversityModel />
-              <UniversityModel />
+            <div className="items-wrapper">
+              {universities.map((item, index)=> (
+                <UniversityModel data={item} key={index.toString()}/>
+              ))}
             </div>
           </div>
         </div>

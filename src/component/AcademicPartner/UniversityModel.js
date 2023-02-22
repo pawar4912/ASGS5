@@ -1,30 +1,25 @@
 import React from "react";
 
-const UniversityModel = () => {
+const UniversityModel = ({ data }) => {
   return (
     <>
-      <div >
-        <div className="card_as">
-          <div className="img1 my-4">
-            <img
-              src={require("../../asset/img/Victoria_1.png")}
-              alt="Avatar"
-              className="imgad1"
-            />
-          </div>
-          <div className="container">
-            <p className="text-center">
-              <b>Victoria University</b>
+      <div className="card_as">
+        {data.premium ? (
+          <div className="ribbon-wrapper">
+            <p class="ribbon">
+              <span class="text">Premium</span>
             </p>
-            <p className="text-center">Sydney</p>
-            <div className="text-center mb-4">
-              <span className="fa fa-star checked" />
-              <span className="fa fa-star checked" />
-              <span className="fa fa-star checked" />
-              <span className="fa fa-star" />
-              <span className="fa fa-star" />
-            </div>
           </div>
+        ) : (
+          ""
+        )}
+        <div className="img1">
+          <img src={data.logo} alt="Avatar" className="university-logo" />
+        </div>
+        <div className="card-info">
+          <p className="text-center">
+            <b>{data.name}</b>
+          </p>
         </div>
       </div>
     </>
