@@ -1,11 +1,9 @@
-import Carousels1 from "../about/Carousels1";
 import Info from "../about/Info";
 import Letsmeet from "./letsmeet";
-import Placed from "./placed";
 import Testimonials from "../comman/Testimonials";
 import EcaEmployee from "./EcaEmployee";
 
-function OurPrograms() {
+function Courses() {
   return (
     <div>
       {/* <Carousels1/> */}
@@ -20,4 +18,4 @@ function OurPrograms() {
   );
 }
 
-export default OurPrograms;
+export default Courses;

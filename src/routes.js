@@ -12,7 +12,7 @@ import Sucess from './component/comman/Sucess';
 import Scholarships from './component/comman/Scholarships';
 import Study from './component/comman/Study';
 import Partner from './component/comman/Partner';
-import OurPrograms from './component/universitym/OurPrograms';
+import Courses from './component/universitym/Courses';
 import Placement from './component/comman/Placement';
 import MoreInfo from './component/comman/MoreInfo';
 import Policy from './component/comman/Policy';
@@ -81,7 +81,7 @@ const routes = [
     },
     {
         path: '/courses',
-        component: <OurPrograms/>,
+        component: <Courses/>,
     },
     {
         path: '/Placement',

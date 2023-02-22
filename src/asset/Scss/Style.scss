@@ -1088,7 +1088,7 @@ i.fa {
 .property_box
 {
   max-width: none !important;
-  margin: 8% !important;
+  margin: 6% !important;
   margin-top: 3rem !important;
   margin-bottom: 4rem !important;
 }
@@ -1448,8 +1448,7 @@ i.fa {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-
-  color: #1C3348;
+  color: #19354b;
 }
 
 
@@ -2746,4 +2745,39 @@ img {
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
+}
+.course-module-section{
+  padding: 2% 3%;
+  .course-module-wrapper{
+    min-width: 100%;
+    background-color: #4a537a;
+    color: #fff;
+    position: relative;
+    padding: 2% 4%;
+  }
+  .course-module-header{
+    display: flex;
+    position: relative;
+  }
+  .show-info-btn{
+    position: absolute;
+    right: 0;
+  }
+  .show-info-btn svg{
+    height: 40px;
+    width: 40px;
+  }
+  .show-info-btn svg:hover{
+    cursor: pointer;
+  }
+  h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  p{
+    font-size: 20px;
+    margin-top: 20px;
+  }
 }
