@@ -79,7 +79,7 @@ function Header() {
             </NavLink>
           </Dropdown.Item>
         </Dropdown>
-        <NavLink className="text-white" to="/uni">
+        <NavLink className="text-white" to="/academic-partner">
           Academics Partners
         </NavLink>
         <NavLink className="text-white" to="/KnowMore">

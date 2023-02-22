@@ -8,7 +8,7 @@ const ProgramModel = ({ data }) => {
     <div className="card-wrapper">
       <div className="card-content">
         <div className="university-img">
-          <img src={data.image} alt="First slide" />
+          <img src={data.image} alt={data.university} />
         </div>
         <div className="card-content-wrapper">
           <div className="card-info">

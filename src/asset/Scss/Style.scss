@@ -80,8 +80,9 @@
   text-align: center;
   font-family: Railway extra board;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 64px;
   color: #4b4b4b;
+  margin-top: 11%;
 }
 
 .scroll-up-btn {
@@ -1673,12 +1674,13 @@ i.fa {
 }
 .course-section img{
   width: 98%;
+  height: 100%;
   border-radius: 6px 0px 0 6px;
 }
 .course-wrapper h3{
   font-family: Railway extra board;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 34px;
   margin: 25px;
 }
 .card-wrapper {
@@ -1727,7 +1729,7 @@ i.fa {
   justify-content: space-around;
 }
 #programs{
-  margin: 0 40px 40px 40px;
+  margin: 0 140px 40px 140px;
 }
 #programs .row:after {
   display: table;
@@ -1739,7 +1741,7 @@ i.fa {
   padding: 0 10px;
 }
 #programs .course-section {
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .card-wrapper .card-content h3{
   display: inline-block;
@@ -2004,7 +2006,11 @@ i.fa {
 }
 
 
-
+.seprater-line
+{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
 
 
 
@@ -2015,14 +2021,36 @@ i.fa {
   background: #FFFFFF;
   border: 0.5px solid #A8A8A8;
   border-radius: 8px;
-  height: 380px !important;
+  // height: 420px !important;
 }
 
-.unimain {
+.academic-partner-main {
   padding-left: 80px !important;
   padding-right: 80px !important;
-}
 
+  .items-wrapper{
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+  }
+  .container-wrapper{
+    display: flex;
+    margin-top: 40px;
+  }
+  .filter{
+    width: 20%;
+  }
+  .card-info{
+    background-color: #00bbd2;
+    display: block;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: -8px;
+    position: relative;
+    padding: 30px 0;
+    height: 39%;
+  }
+}
 .newsearch {
   height: 40px;
   background: #FFFFFF;
@@ -2071,33 +2099,22 @@ img {
 .img1 {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 
 .card_as:hover {
-  background-color: #00BBD2;
+  box-shadow: 0 0 10px 0 #6f6161;
+  cursor: pointer;
 }
 
 .checked {
   color: orange;
 }
 
-.imgad1 {
-  width: 132.97px;
-  height: 132.97px;
-}
-
 .img32 {
   width: 150px;
   height: 132.97px;
 }
-
-
-.card_as {
-  background: #FFFFFF;
-  border: 0.5px solid #A8A8A8;
-  border-radius: 8px;
-}
-
 
 .bordsa1 {
   border-top: 4px solid #2ac4d2;
@@ -2282,7 +2299,7 @@ img {
   background: #FFFFFF;
   border: 0.5px solid #A8A8A8;
   border-radius: 8px;
-  height: 380px;
+  // height: 380px;
 }
 
 .unimain {
@@ -2321,26 +2338,57 @@ img {
 .img1 {
   display: flex;
   justify-content: center;
-}
-
-.card_as:hover {
-  background-color: #00BBD2;
+  height: 65%;
 }
 
 .checked {
   color: orange;
 }
 
-.imgad1 {
-  width: 132.97px;
-  height: 132.97px;
-}
-
 
 .card_as {
   background: #FFFFFF;
   border: 0.5px solid #A8A8A8;
-  border-radius: 8px;
+  border-radius: 10px;
+  position: relative;
+
+  .ribbon-wrapper{
+    position: absolute;
+    top: 7px;
+    left: -11px;
+  }
+  .ribbon{
+    font-size:20px;
+    position:relative;
+    display:inline-block;
+    text-align:center;
+  }
+  .text{
+    font-size: 16px;
+    padding: 0 7px;
+    width:150px;
+    background: #FFD72A;
+    position:relative;
+    font-family: Railway extra board !important;
+  }
+  .ribbon:after,
+  .text:before,
+  .bold:before{
+    content:'';
+    position:absolute;
+    border-style:solid;
+  }
+  .text:before{
+    bottom:100%; left:0;
+    border-width: .5em .7em 0 0;
+    border-color: transparent #FC9544 transparent transparent;
+  }
+  .ribbon:after, .bold:before{
+    top:0.5em;right:-2em;
+    border-width: 1.1em 1em 1.1em 3em;
+    border-color: #FECC30 transparent #FECC30 #FECC30;
+    z-index:-1;
+  }
 }
 
 
@@ -2426,8 +2474,8 @@ img {
   height: 380px !important;
 }
 
-.imgad1 {
-  width: 100% !important;
+.university-logo {
+  max-width: 100% !important;
 }
 
 .card10_as:hover {
