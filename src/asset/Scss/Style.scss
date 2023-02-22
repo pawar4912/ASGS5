@@ -1080,6 +1080,31 @@ i.fa {
   font-size: 24px;
   line-height: 30.12px;
 }
+.Campus_height
+{
+  height: 200px;
+}
+
+.property_box
+{
+  max-width: none !important;
+  margin: 8% !important;
+  margin-top: 3rem !important;
+  margin-bottom: 4rem !important;
+}
+.property_box h4
+{
+  font-weight: 900 !important;
+}
+
+
+
+
+
+.course-padding
+{
+  padding-left:10%;
+}
 
 
 //   Testimonials.scss code ...............................
@@ -1451,6 +1476,65 @@ i.fa {
   justify-content: space-around;
   align-items: center;
   display: flex;
+}
+
+.accordion-button:not(.collapsed)
+{
+  background-color:rgba(28, 40, 90, 0.8) !important;
+  color: white !important;
+
+}
+.accordion-button 
+{
+  background-color:rgba(28, 40, 90, 0.8) !important;
+  color: white !important;
+  
+}
+.accordion
+{
+  --bs-accordion-color: white !important;
+  --bs-accordion-bg: rgba(28, 40, 90, 0.8) !important;
+  --bs-accordion-active-color: rgba(28, 40, 90, 0.8) !important;
+  --bs-accordion-border-color:  rgba(28, 40, 90, 0.8) !important;
+}
+
+.accordion-button:focus
+{
+  box-shadow: none !important;
+}
+.accordion-button::after
+{
+  background-image: url('../../asset/logo/Arrow2.png') !important;
+}
+.accordion-item:last-of-type 
+{
+  border-color: rgba(28, 40, 90, 0.8) !important;
+}
+.accordion-body 
+{
+  color: white !important;
+  text-align: initial;
+}
+.accordion-button::after {
+  margin-left: 60% !important;
+}
+.accordion-item 
+{
+  border: rgba(28, 40, 90, 0.8);
+}
+.course_width
+{
+  width: 60%;
+
+}
+.accordion_center
+{
+  text-align: -webkit-center;
+}
+
+.card_border
+{
+  border-radius: 25px !important;
 }
 
 .ourhead1 {
@@ -2045,6 +2129,7 @@ img {
   margin-bottom: 120px;
 }
 
+
 .indexpara h2 {
   font-size: 31.53px;
   font-weight: 700;
@@ -2068,6 +2153,69 @@ img {
   font-size: 32px;
   line-height: 40px;
 
+}
+.text_height
+{
+  
+  display: grid;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  margin-bottom: 120px; 
+  text-align: initial;
+ 
+}
+.text_height h2 {
+  font-size: 31.53px;
+  font-weight: 700;
+  line-height: 39.57px;
+  font-family: 'Mulish';
+  height: fit-content;
+
+}
+
+.text_height h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: initial;
+  padding-left: 5%;
+}
+.text_height h5 {
+  font-family: 'Mulish';
+  font-style: normal;
+  text-align: initial;
+  padding-left: 5%;
+  text-align: center;
+}
+.text_height h6 {
+  font-family: 'Mulish';
+  font-style: normal;
+  text-align: initial;
+  padding-left: 5%;
+}
+.back_color
+{
+  background-color:  #00BBD2;
+  margin-left: 5%;
+  padding: .5%;
+  border-radius: 10px;
+}
+.text_height p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: initial;
+  padding-left: 5%;
+
+}
+.intake_padding
+{
+  padding-left: 6%;
 }
 
 .backimg {
@@ -2520,6 +2668,19 @@ img {
     flex-direction: column;
 
   }
+  .course_direction
+{
+  flex-direction: column;
+}
+.course-padding
+{
+  padding-left: 0px;
+  text-align: center;
+}
+.text_middle
+{
+  text-align: center;
+}
 }
 
 

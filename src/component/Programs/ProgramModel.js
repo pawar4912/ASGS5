@@ -25,7 +25,7 @@ const ProgramModel = ({ data }) => {
             <div className="wrapper-button">
               <Button
                 className="buttonBg btn-rounded btnapply btn btn-primary"
-                onClick={() => navigate("/prog")}
+                onClick={() => navigate("/courses")}
               >
                 Know More
               </Button>

@@ -12,15 +12,15 @@ import Whyus from "./comman/Whyus";
 function Home() {
   return (
     <div>
-      <Carousels></Carousels>
-      <About></About>
-      <ImageASGS></ImageASGS>
-      <Video></Video>
-      <KnowMore></KnowMore>
-      <Team></Team>
-      <Whyus></Whyus>
-      <Testimonials></Testimonials>
-      <Recruiters></Recruiters>
+      <Carousels/>
+      <About/>
+      <ImageASGS/>
+      <Video/>
+      <KnowMore/>
+      <Team/>
+      <Whyus/>
+      <Testimonials/>
+      <Recruiters/>
     </div>
   );
 }

@@ -80,7 +80,7 @@ const routes = [
         component: <Partner/>,
     },
     {
-        path: '/prog',
+        path: '/courses',
         component: <OurPrograms/>,
     },
     {
