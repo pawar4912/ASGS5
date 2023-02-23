@@ -21,6 +21,7 @@ import Contact from './component/comman/Contact';
 import InternationalBachelors from './component/InternationalBachelors';
 import InternationalMasters from './component/InternationalMasters';
 import InternationalShortCourses from './component/InternationalShortCourses';
+import Univarsity from './component/Univarsity';
 
 const routes = [
     {
@@ -114,6 +115,10 @@ const routes = [
     {
         path: '/international-short-courses',
         component: <InternationalShortCourses/>,
+    },
+    {
+        path: '/univarsity',
+        component: <Univarsity/>,
     },
 ]
 

@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-function Testimonials() {
+function Testimonials(props) {
   const settings = {
     dots: false,
     infinite: true,
@@ -17,7 +17,7 @@ function Testimonials() {
   return (
     <>
       <div className="testiarr ">
-        <h3 className="section-heading">Students Testimonials</h3>
+        <h3 className="section-heading">Students {props.name}</h3>
 
         <div className="d-flex">
           <Slider {...settings}>

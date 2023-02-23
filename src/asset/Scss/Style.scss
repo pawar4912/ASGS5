@@ -1098,13 +1098,23 @@ i.fa {
   font-weight: 900 !important;
 }
 
-
+.University_property_box
+{
+  max-width: none !important;
+  margin: 6% !important;
+  margin-top: -3rem !important;
+  margin-bottom: 4rem !important;
+}
 
 
 
 .course-padding
 {
   padding-left:10%;
+}
+.card-padding
+{
+ padding-left: 6%;
 }
 
 
@@ -1135,6 +1145,82 @@ i.fa {
   margin: 50px auto;
   padding: 20px;
   position: relative;
+}
+.course_wrapper
+{
+  
+  background: #FFFFFF;
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.16);
+  border-radius: 0px 20px;
+  display: flex !important;
+  width: 250px;
+  gap: 1px !important;
+  margin: 50px auto;
+  position: relative;
+}
+
+
+.card_wid
+{
+  width: 60% !important;
+}
+.course_img
+{
+  width: 20% ;
+  height: 40%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.word_font
+{
+  font-size: 25px;
+}
+.word_spacing
+{
+  font-size: initial;
+}
+.course_wid
+{
+  width: 80%;
+  margin-left: 10%;
+}
+.course_back_color
+{
+  background-color: #f0f4ff;
+}
+.learn_property
+{
+  color: red !important;
+  font-size: 15px;
+}
+.slick-prev, .slick-next {
+  width: 35px !important;
+  height: 50px !important;
+}
+
+.slick-prev:before {
+  content: '<' !important;
+}
+.slick-prev {
+  left: 40px !important;
+  z-index: 1 !important;
+}
+.slick-next {
+  right: 40px !important;
+  z-index: 1 !important;
+}
+.slick-next:before {
+  content: '>' !important;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: 'auto' !important;
+  font-size: 50px !important;
+    font-weight: bolder !important; 
+}
+.course_top
+{
+  position: relative;
+  top: 20px;
 }
 
 
@@ -1534,8 +1620,32 @@ i.fa {
 
 .card_border
 {
-  border-radius: 25px !important;
+  border-radius: 20px !important;
 }
+
+// vertical line start
+.vertical {
+  border-left: 3px solid rgb(156, 152, 152);
+  height: 130px;
+  position:absolute;
+  left: 25%;
+}
+.vertical_first
+{
+  border-left: 3px solid rgb(119, 114, 114);
+  height: 130px;
+  position:absolute;
+  left: 50%; 
+}
+.vertical_sec
+{
+  border-left: 3px solid black;
+  height: 130px;
+  position:absolute;
+  left: 75%; 
+}
+
+
 
 .ourhead1 {
   font-family: 'Mulish';
@@ -2182,12 +2292,13 @@ img {
  
 }
 .text_height h2 {
-  font-size: 31.53px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 39.57px;
   font-family: 'Mulish';
   height: fit-content;
-
+  padding-left: 5%;
+  opacity: .8;
 }
 
 .text_height h1 {
@@ -2218,6 +2329,24 @@ img {
   margin-left: 5%;
   padding: .5%;
   border-radius: 10px;
+}
+.apply_color
+{
+  background-color:  #00BBD2; 
+  margin-left: 5%;
+  border-radius: 30px;
+  padding: 0.6% 3%;
+  font-size: large;
+}
+.downlod_background
+{
+  background-color:  #fff; 
+  color: red;
+  border: 1px solid red;
+  margin-left: 1%;
+  border-radius: 30px;
+  padding: 0.6% 3%;
+  font-size: large; 
 }
 .text_height p {
   font-family: 'Mulish';

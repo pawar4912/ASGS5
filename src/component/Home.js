@@ -19,7 +19,7 @@ function Home() {
       <KnowMore/>
       <Team/>
       <Whyus/>
-      <Testimonials/>
+      <Testimonials  name={'Testimonials'}/>
       <Recruiters/>
     </div>
   );
