@@ -91,6 +91,9 @@ function Header() {
         <NavLink className="text-white" to="/apply">
           Contact Us
         </NavLink>
+        <NavLink className="text-white" to="/univarsity">
+        Univarsity
+        </NavLink>
       </div>
     </div>
   );
