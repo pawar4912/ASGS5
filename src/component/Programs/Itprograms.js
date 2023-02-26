@@ -74,7 +74,7 @@ function Itprograms() {
     {
       image: require("../../asset/img/universities/VU-Melbourne.jpg"),
       logo: require("../../asset/logo/campus/VU-Melbourne.jpg"),
-      university: "Victoria University",
+      university: "Victoria University, Melbourne",
     },
     {
       image: require("../../asset/img/universities/Charles-Sturt.jpg"),

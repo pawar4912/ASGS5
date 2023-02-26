@@ -70,17 +70,17 @@ function Header() {
           </Dropdown.Menu>
           <Dropdown.Item>
             <NavLink to="/international-masters">
-              International Masters{" "}
+              International Masters
             </NavLink>
           </Dropdown.Item>
           <Dropdown.Item>
             <NavLink to="/international-short-courses">
-              International Short Courses{" "}
+              International Short Courses
             </NavLink>
           </Dropdown.Item>
         </Dropdown>
         <NavLink className="text-white" to="/academic-partner">
-          Academics Partners
+          Academic Partners
         </NavLink>
         <NavLink className="text-white" to="/KnowMore">
           About ASGS
