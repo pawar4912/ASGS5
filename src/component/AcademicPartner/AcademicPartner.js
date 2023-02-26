@@ -32,6 +32,21 @@ function AcademicPartner() {
       logo: require("../../asset/logo/UniversityLogos/VU-Sydney.png"),
       name: 'Victoria University, Sydney',
       premium: true
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/London-Metropolitian-University.jpg"),
+      name: 'London   Metropolitian University',
+      premium: false
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/open-learning.jpg"),
+      name: 'Open Learning',
+      premium: false
+    },
+    {
+      logo: require("../../asset/logo/UniversityLogos/Tasmania.png"),
+      name: 'Tasmania',
+      premium: false
     }
   ]
   return (
@@ -64,8 +79,8 @@ function AcademicPartner() {
               />
             </div>
             <div className="unv1 pb-4 px-3">
-              <p className="text-center pt-2">Filter</p>
-              <hr className="seprater-line"/>
+              {/* <p className="text-center pt-2">Filter</p>
+              <hr className="seprater-line"/> */}
 
               {/* <span>Select Country</span> */}
               <div className="">Select Country</div>

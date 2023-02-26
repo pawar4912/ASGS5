@@ -20,12 +20,12 @@ function Header() {
         variant="white"
         className="navbar-nav"
       >
-        <Container>
+        <Container className="header-container">
           <Navbar.Brand className="imgra">
             <NavLink to='/'>           
              <img
-              src={require("../../asset/ASGS-02.jpg")}
-              height={69}
+              src={require("../../asset/logo/asgs-global-logo.png")}
+              className="main-logo"
               alt="logo"
             />
             </NavLink>
