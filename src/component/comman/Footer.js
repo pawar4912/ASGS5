@@ -3,7 +3,7 @@ import ScrollButton from "../../common/components/ScrollButton";
 
 function Footer() {
   return (
-    <div className="footerad mt-3">
+    <div className="footerad">
       <ScrollButton />
       <footer className="site-footer">
         <div className="container">
