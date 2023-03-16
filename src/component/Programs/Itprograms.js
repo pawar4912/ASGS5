@@ -127,10 +127,12 @@ function Itprograms() {
             </div>
           </div>
 
-          <div className="row">
-            {cyberSecurity.map((data, index) => (
-              <ProgramModel data={data} key={index} />
-            ))}
+          <div className="col-lg-12">
+            <div className="programs-items-wrapper">
+              {cyberSecurity.map((data, index) => (
+                <ProgramModel data={data} key={index} />
+              ))}
+            </div>
           </div>
         </div>
         <div className="course-section">
@@ -160,10 +162,12 @@ function Itprograms() {
             </div>
           </div>
 
-          <div className="row">
-            {dataScience.map((data, index) => (
-              <ProgramModel data={data} key={index} />
-            ))}
+          <div className="col-lg-12">
+            <div className="programs-items-wrapper">
+              {dataScience.map((data, index) => (
+                <ProgramModel data={data} key={index} />
+              ))}
+            </div>
           </div>
         </div>
         <div className="course-section">
@@ -193,10 +197,12 @@ function Itprograms() {
             </div>
           </div>
 
-          <div className="row">
-            {artificialIntelligence.map((data, index) => (
-              <ProgramModel data={data} key={index} />
-            ))}
+          <div className="col-lg-12">
+            <div className="programs-items-wrapper">
+              {artificialIntelligence.map((data, index) => (
+                <ProgramModel data={data} key={index} />
+              ))}
+            </div>
           </div>
         </div>
         <div className="course-section">
@@ -226,10 +232,12 @@ function Itprograms() {
             </div>
           </div>
 
-          <div className="row">
-            {informationTechnology.map((data, index) => (
-              <ProgramModel data={data} key={index} />
-            ))}
+          <div className="col-lg-12">
+            <div className="programs-items-wrapper">
+              {informationTechnology.map((data, index) => (
+                <ProgramModel data={data} key={index} />
+              ))}
+            </div>
           </div>
         </div>
         <div className="course-section">
@@ -259,10 +267,12 @@ function Itprograms() {
             </div>
           </div>
 
-          <div className="row">
-            {dataAnalytics.map((data, index) => (
-              <ProgramModel data={data} key={index} />
-            ))}
+          <div className="col-lg-12">
+            <div className="programs-items-wrapper">
+              {dataAnalytics.map((data, index) => (
+                <ProgramModel data={data} key={index} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

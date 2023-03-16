@@ -1,47 +1,62 @@
-import React from 'react'
+import React from "react";
+import Slider from "react-slick";
+
+const settings = {
+  dots: false,
+  infinite: true,
+  speed: 10000,
+  slidesToShow: 5,
+  slidesToScroll: 4,
+  autoplay: true,
+  cssEase: "linear",
+  autoplaySpeed: 1,
+};
 
 function ECA_Partner() {
   return (
     <div className="row property_box1">
-    <h3 className="section-heading mb-3">ECA Partner universities</h3>
-    <div className="card ECA_card_border mt-3">
-      <div className="d-flex mt-4 course_direction">
-        <div className="col-lg-3 me-1">
-          <div className="">
-            <img  src={require("../../asset/logo/about/VU.png")} alt="123" height={40} width={100} />
-          </div>
-          <div className=" mt-3 mb-4">
-          <img  src={require("../../asset/logo/about/LMU.png")} alt="123" height={40} width={100} />
-          </div>
-        </div>
-        <div className="col-lg-3 mx-4">
-          <div className="">
-            <img  src={require("../../asset/logo/about/SU.png")} alt="123" height={40} width={100} />
-          </div>
-          <div className=" mt-3 mb-4">
-          <img  src={require("../../asset/logo/about/LJMU.png")} alt="123" height={40} width={100} />
-          </div>
-        </div>
-        <div className="col-lg-3 mx-3">
-          <div className="">
-            <img  src={require("../../asset/logo/about/UC.png")} alt="123" height={40} width={100} />
-          </div>
-          <div className=" mt-3 mb-4">
-          <img  src={require("../../asset/logo/about/TU.png")} alt="123" height={40} width={100} />
-          </div>
-        </div>
-        <div className="col-lg-3 me-5">
-          <div >
-            <img  className="mx-3" src={require("../../asset/logo/about/ECA_image.png")} alt="123" height={40} width={100} />
-          </div>
-         
-        </div>
-       
-     
+      <h3 className="section-heading">ECA Partner universities</h3>
+      <div className="group1020 d-flex justify-content-evenly margin_top">
+        <Slider {...settings} className="justify-content-evenly sdiv1">
+          <img
+            src={require("../../asset/logo/about/VU.png")}
+            alt="123"
+            className="imgreq"
+          />
+          <img
+            src={require("../../asset/logo/about/LMU.png")}
+            alt="123"
+            className="imgreq"
+          />
+          <img
+            src={require("../../asset/logo/about/SU.png")}
+            alt="123"
+            className="imgreq"
+          />
+          <img
+            src={require("../../asset/logo/about/LJMU.png")}
+            alt="123"
+            className="imgreq"
+          />
+          <img
+            src={require("../../asset/logo/about/UC.png")}
+            alt="123"
+            className="imgreq"
+          />
+          <img
+            src={require("../../asset/logo/about/TU.png")}
+            alt="123"
+            className="imgreq"
+          />
+          <img
+            src={require("../../asset/logo/about/ECA_image.png")}
+            alt="123"
+            className="imgreq"
+          />
+        </Slider>
       </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default ECA_Partner
+export default ECA_Partner;
