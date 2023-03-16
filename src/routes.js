@@ -20,6 +20,7 @@ import Terms from './component/comman/Terms';
 import Contact from './component/comman/Contact';
 import InternationalBachelors from './component/InternationalBachelors';
 import InternationalMasters from './component/InternationalMasters';
+import LMU from './component/LMU/LMU';
 import InternationalShortCourses from './component/InternationalShortCourses';
 
 const routes = [
@@ -114,6 +115,10 @@ const routes = [
     {
         path: '/international-short-courses',
         component: <InternationalShortCourses/>,
+    },
+    {
+        path: '/lmu',
+        component: <LMU/>,
     },
 ]
 

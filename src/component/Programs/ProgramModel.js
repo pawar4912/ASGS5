@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const ProgramModel = ({ data }) => {
   const navigate = useNavigate();
   return (
-    <div className="card-wrapper">
+    <div className="card-wrapper ">
       <div className="card-content">
         <div className="university-img">
           <img src={data.image} alt={data.university} />

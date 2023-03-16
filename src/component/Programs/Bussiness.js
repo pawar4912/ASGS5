@@ -107,11 +107,12 @@ function Bussiness() {
               </div>
             </div>
           </div>
-
-          <div className="row">
+          <div className="col-lg-12">
+            <div className="programs-items-wrapper">
               {marketing.map((data, index) => (
-                  <ProgramModel data={data} key={index.toString()}/>
+                <ProgramModel data={data} key={index.toString()} />
               ))}
+            </div>
           </div>
         </div>
         <div className="course-section">
@@ -140,11 +141,12 @@ function Bussiness() {
               </div>
             </div>
           </div>
-
-          <div className="row">
+          <div className="col-lg-12">
+            <div className="programs-items-wrapper">
               {finance.map((data, index) => (
-                  <ProgramModel data={data} key={index.toString()}/>
+                <ProgramModel data={data} key={index.toString()} />
               ))}
+            </div>
           </div>
         </div>
         <div className="course-section">
@@ -174,10 +176,10 @@ function Bussiness() {
             </div>
           </div>
 
-          <div className="row">
-              {generalManagement.map((data, index) => (
-                  <ProgramModel data={data} key={index.toString()} />
-              ))}
+          <div className="programs-items-wrapper">
+            {generalManagement.map((data, index) => (
+              <ProgramModel data={data} key={index.toString()} />
+            ))}
           </div>
         </div>
         <div className="course-section">
@@ -207,10 +209,10 @@ function Bussiness() {
             </div>
           </div>
 
-          <div className="row">
-              {administration.map((data, index) => (
-                  <ProgramModel data={data} key={index.toString()} />
-              ))}
+          <div className="programs-items-wrapper">
+            {administration.map((data, index) => (
+              <ProgramModel data={data} key={index.toString()} />
+            ))}
           </div>
         </div>
         <div className="course-section">
@@ -240,10 +242,10 @@ function Bussiness() {
             </div>
           </div>
 
-          <div className="row">
-              {humanResource.map((data, index) => (
-                  <ProgramModel data={data} key={index.toString()} />
-              ))}
+          <div className="programs-items-wrapper">
+            {humanResource.map((data, index) => (
+              <ProgramModel data={data} key={index.toString()} />
+            ))}
           </div>
         </div>
       </div>
